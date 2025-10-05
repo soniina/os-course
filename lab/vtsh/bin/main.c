@@ -132,6 +132,23 @@ void handle_exit(BackgroundProcesses* bg_procs) {
   }
 }
 
+int read_line(char* buffer, int max_size) {
+  int idx = 0;
+  char sym = '0';
+  while (idx < max_size - 1) {
+    size_t n_bytes = read(STDIN_FILENO, &sym, 1);
+    if (n_bytes <= 0) {
+      return -1;
+    }
+    if (sym == '\n') {
+      break;
+    }
+    buffer[idx++] = sym;
+  }
+  buffer[idx] = '\0';
+  return idx;
+}
+
 int main() {
   char input[MAX_INPUT_SIZE];
   char* args[MAX_ARGS];
@@ -152,8 +169,8 @@ int main() {
       continue;
     }
 
-    if (fgets(input, MAX_INPUT_SIZE, stdin) == NULL) {
-      printf("\n");
+    int len = read_line(input, MAX_INPUT_SIZE);
+    if (len < 0) {
       break;
     }
 

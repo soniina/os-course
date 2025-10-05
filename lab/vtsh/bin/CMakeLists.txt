@@ -14,3 +14,9 @@ target_link_libraries(
     PRIVATE
     libvtsh
 )
+
+add_custom_command(TARGET vtsh POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy
+        $<TARGET_FILE:vtsh>           
+        ${CMAKE_SOURCE_DIR}/test/shell 
+)
