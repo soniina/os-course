@@ -1,4 +1,6 @@
 #include <errno.h>
+#include <fcntl.h>
+#include <signal.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -11,47 +13,139 @@
 #define MAX_INPUT_SIZE 1024
 #define MAX_ARGS 64
 #define MAX_PATH_SIZE 1024
+#define MAX_BACKGROUND_PROCESSES 100
 #define MICROSECONDS_PER_SECOND 1000000.0
 
-void parse_command(char* input, char** args) {
+typedef struct {
+  pid_t pids[MAX_BACKGROUND_PROCESSES];
+  int count;
+} BackgroundProcesses;
+
+int parse_command(char* input, char** args) {
   int arg_count = 0;
   char* saveptr = NULL;
   char* token = strtok_r(input, " \t", &saveptr);
+  int background = 0;
 
   while (token != NULL && arg_count < MAX_ARGS - 1) {
     args[arg_count++] = token;
     token = strtok_r(NULL, " \t", &saveptr);
   }
   args[arg_count] = NULL;
+
+  if (arg_count > 0 && strcmp(args[arg_count - 1], "&") == 0) {
+    args[arg_count - 1] = NULL;
+    background = 1;
+  }
+
+  return background;
+}
+
+void check_background_processes(BackgroundProcesses* bg_procs) {
+  int status = 0;
+  pid_t pid = 0;
+
+  while ((pid = waitpid(-1, &status, WNOHANG)) > 0) {
+    printf("[%d] завершен\n", pid);
+
+    for (int i = 0; i < bg_procs->count; i++) {
+      if (bg_procs->pids[i] == pid) {
+        bg_procs->pids[i] = bg_procs->pids[bg_procs->count - 1];
+        bg_procs->count--;
+        break;
+      }
+    }
+  }
 }
 
 int execute_builtin(char** args, const char* initial_directory) {
   if (strcmp(args[0], "cd") == 0) {
-    if (args[1] == NULL) {
-      if (chdir(initial_directory) != 0) {
-        perror("cd");
-      }
-    } else {
-      if (chdir(args[1]) != 0) {
-        perror("cd");
-      }
+    const char* target_dir = args[1] != NULL ? args[1] : initial_directory;
+    if (chdir(target_dir) != 0) {
+      perror("cd");
     }
     return 1;
   }
   return 0;
 }
 
+void redirect_std_to_null() {
+  int null_fd = open("/dev/null", O_RDONLY);
+  if (null_fd != -1) {
+    dup2(null_fd, STDIN_FILENO);
+    close(null_fd);
+  }
+  null_fd = open("/dev/null", O_WRONLY);
+  if (null_fd != -1) {
+    dup2(null_fd, STDOUT_FILENO);
+    dup2(null_fd, STDERR_FILENO);
+    close(null_fd);
+  }
+}
+
+int execute_external_command(
+    char** args, int background, BackgroundProcesses* bg_procs
+) {
+  pid_t pid = fork();
+  if (pid == -1) {
+    perror("fork failed");
+    return -1;
+  }
+
+  if (pid == 0) {
+    if (background) {
+      redirect_std_to_null();
+    }
+    execvp(args[0], args);
+
+    if (errno == ENOENT) {
+      printf("Command not found\n");
+    } else {
+      perror(args[0]);
+    }
+    if (fflush(stdout) != 0) {
+      perror("fflush failed");
+    }
+    _exit(EXIT_FAILURE);
+  }
+
+  if (background) {
+    printf("[%d] запущен в фоне\n", pid);
+    if (bg_procs->count < MAX_BACKGROUND_PROCESSES) {
+      bg_procs->pids[bg_procs->count++] = pid;
+    } else {
+      printf("Too many background processes\n");
+    }
+  } else {
+    int status = 0;
+    waitpid(pid, &status, 0);
+  }
+
+  return pid;
+}
+
+void handle_exit(BackgroundProcesses* bg_procs) {
+  while (bg_procs->count > 0) {
+    printf("Ожидание завершения фоновых процессов...\n");
+    usleep(MICROSECONDS_PER_SECOND);
+    check_background_processes(bg_procs);
+  }
+}
+
 int main() {
   char input[MAX_INPUT_SIZE];
   char* args[MAX_ARGS];
-
+  BackgroundProcesses bg_procs = {.count = 0};
   char initial_directory[MAX_PATH_SIZE];
+
   if (getcwd(initial_directory, sizeof(initial_directory)) == NULL) {
     perror("getcwd failed");
     return 1;
   }
 
   while (1) {
+    check_background_processes(&bg_procs);
+
     printf("%s", vtsh_prompt());
     if (fflush(stdout) != 0) {
       perror("fflush failed");
@@ -65,56 +159,38 @@ int main() {
 
     input[strcspn(input, "\n")] = '\0';
 
-    parse_command(input, args);
+    int background = parse_command(input, args);
 
     if (args[0] == NULL) {
       continue;
     }
 
     if (strcmp(args[0], "exit") == 0) {
+      handle_exit(&bg_procs);
       break;
-    }
-
-    if (execute_builtin(args, initial_directory)) {
-      continue;
     }
 
     struct timeval start_time;
     struct timeval end_time;
-    gettimeofday(&start_time, NULL);
 
-    pid_t pid = fork();
-
-    if (pid == -1) {
-      perror("fork failed");
-      continue;
+    if (!background) {
+      gettimeofday(&start_time, NULL);
     }
 
-    if (pid == 0) {
-      execvp(args[0], args);
-
-      if (errno == ENOENT) {
-        printf("Command not found\n");
-      } else {
-        perror(args[0]);
-      }
-
-      if (fflush(stdout) != 0) {
-        perror("fflush failed");
-        continue;
-      }
-
-      _exit(EXIT_FAILURE);
+    int command_executed = 0;
+    if (execute_builtin(args, initial_directory)) {
+      command_executed = 1;
+    } else {
+      pid_t pid = execute_external_command(args, background, &bg_procs);
+      command_executed = (pid != -1);
     }
 
-    int status = -1;
-    waitpid(pid, &status, 0);
-
-    gettimeofday(&end_time, NULL);
-
-    double elapsed_time = (double)(end_time.tv_sec - start_time.tv_sec) +
-                          (double)(end_time.tv_usec - start_time.tv_usec) /
-                              MICROSECONDS_PER_SECOND;
+    if (!background && command_executed) {
+      gettimeofday(&end_time, NULL);
+      double elapsed_time = (double)(end_time.tv_sec - start_time.tv_sec) +
+                            (double)(end_time.tv_usec - start_time.tv_usec) /
+                                MICROSECONDS_PER_SECOND;
+    }
   }
 
   return 0;
