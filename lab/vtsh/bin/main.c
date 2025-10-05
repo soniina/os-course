@@ -14,12 +14,53 @@
 #define MAX_ARGS 64
 #define MAX_PATH_SIZE 1024
 #define MAX_BACKGROUND_PROCESSES 100
+#define STACK_SIZE (64UL * 1024)
 #define MICROSECONDS_PER_SECOND 1000000.0
 
 typedef struct {
   pid_t pids[MAX_BACKGROUND_PROCESSES];
+  void* stacks[MAX_BACKGROUND_PROCESSES];
   int count;
 } BackgroundProcesses;
+
+typedef struct {
+  char** args;
+  int background;
+} ChildProcessData;
+
+void redirect_std_to_null() {
+  int null_fd = open("/dev/null", O_RDONLY);
+  if (null_fd != -1) {
+    dup2(null_fd, STDIN_FILENO);
+    close(null_fd);
+  }
+  null_fd = open("/dev/null", O_WRONLY);
+  if (null_fd != -1) {
+    dup2(null_fd, STDOUT_FILENO);
+    dup2(null_fd, STDERR_FILENO);
+    close(null_fd);
+  }
+}
+
+static int child_exec(void* arg) {
+  ChildProcessData* data = (ChildProcessData*)arg;
+
+  if (data->background) {
+    redirect_std_to_null();
+  }
+
+  execvp(data->args[0], data->args);
+
+  if (errno == ENOENT) {
+    printf("Command not found\n");
+  } else {
+    perror(data->args[0]);
+  }
+  if (fflush(stdout) != 0) {
+    perror("fflush failed");
+  }
+  _exit(EXIT_FAILURE);
+}
 
 int parse_command(char* input, char** args) {
   int arg_count = 0;
@@ -50,7 +91,9 @@ void check_background_processes(BackgroundProcesses* bg_procs) {
 
     for (int i = 0; i < bg_procs->count; i++) {
       if (bg_procs->pids[i] == pid) {
+        free(bg_procs->stacks[i]);
         bg_procs->pids[i] = bg_procs->pids[bg_procs->count - 1];
+        bg_procs->stacks[i] = bg_procs->stacks[bg_procs->count - 1];
         bg_procs->count--;
         break;
       }
@@ -69,56 +112,36 @@ int execute_builtin(char** args, const char* initial_directory) {
   return 0;
 }
 
-void redirect_std_to_null() {
-  int null_fd = open("/dev/null", O_RDONLY);
-  if (null_fd != -1) {
-    dup2(null_fd, STDIN_FILENO);
-    close(null_fd);
-  }
-  null_fd = open("/dev/null", O_WRONLY);
-  if (null_fd != -1) {
-    dup2(null_fd, STDOUT_FILENO);
-    dup2(null_fd, STDERR_FILENO);
-    close(null_fd);
-  }
-}
-
 int execute_external_command(
     char** args, int background, BackgroundProcesses* bg_procs
 ) {
-  pid_t pid = fork();
+  char* stack = malloc(STACK_SIZE);
+  if (stack == NULL) {
+    perror("malloc failed");
+    return -1;
+  }
+
+  ChildProcessData data = {.args = args, .background = background};
+  pid_t pid = clone(child_exec, stack + STACK_SIZE, SIGCHLD, &data);
+
   if (pid == -1) {
     perror("fork failed");
     return -1;
   }
 
-  if (pid == 0) {
-    if (background) {
-      redirect_std_to_null();
-    }
-    execvp(args[0], args);
-
-    if (errno == ENOENT) {
-      printf("Command not found\n");
-    } else {
-      perror(args[0]);
-    }
-    if (fflush(stdout) != 0) {
-      perror("fflush failed");
-    }
-    _exit(EXIT_FAILURE);
-  }
-
   if (background) {
     printf("[%d] запущен в фоне\n", pid);
     if (bg_procs->count < MAX_BACKGROUND_PROCESSES) {
-      bg_procs->pids[bg_procs->count++] = pid;
+      bg_procs->pids[bg_procs->count] = pid;
+      bg_procs->stacks[bg_procs->count++] = stack;
     } else {
       printf("Too many background processes\n");
+      free(stack);
     }
   } else {
     int status = 0;
     waitpid(pid, &status, 0);
+    free(stack);
   }
 
   return pid;
@@ -173,8 +196,6 @@ int main() {
     if (len < 0) {
       break;
     }
-
-    input[strcspn(input, "\n")] = '\0';
 
     int background = parse_command(input, args);
 
