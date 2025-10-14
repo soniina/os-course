@@ -8,3 +8,8 @@ build/
 __pycache__/
 
 .DS_Store
+.vscode
+Dockerfile
+docker-entrypoint.sh
+test/shell
+.vscode
