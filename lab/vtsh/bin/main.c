@@ -23,7 +23,7 @@ int main() {
 
   if (setvbuf(stdin, NULL, _IONBF, 0) != 0) {
     perror("setvbuf failed");
-    return -1;
+    return 1;
   }
 
   if (getcwd(initial_directory, sizeof(initial_directory)) == NULL) {

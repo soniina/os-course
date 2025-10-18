@@ -3,10 +3,27 @@ add_executable(
     main.c
 )
 
+add_executable(
+    cpu-mat-mul
+    cpu-mat-mul.c
+)
+
 target_include_directories(
     vtsh
     PUBLIC
     .
+)
+
+target_include_directories(
+    cpu-mat-mul
+    PUBLIC
+    .
+)
+
+target_link_libraries(
+    cpu-mat-mul
+    PRIVATE
+    libvtsh
 )
 
 target_link_libraries(
