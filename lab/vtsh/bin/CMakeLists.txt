@@ -8,6 +8,11 @@ add_executable(
     cpu-mat-mul.c
 )
 
+add_executable(
+    ema-join-nl
+    ema-join-nl.c
+)
+
 target_include_directories(
     vtsh
     PUBLIC
