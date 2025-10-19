@@ -13,6 +13,11 @@ add_executable(
     ema-join-nl.c
 )
 
+add_executable(
+    io-load
+    io-load.c
+)
+
 target_include_directories(
     vtsh
     PUBLIC
