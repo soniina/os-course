@@ -25,7 +25,7 @@ typedef struct {
   rw_mode_t rw_mode;
   size_t block_size;
   size_t block_count;
-  char* filename;
+  const char* filename;
   off_t range_start;
   off_t range_end;
   direct_mode_t direct;
@@ -103,12 +103,48 @@ static int parse_size_param(
     const char* value, const char* param_name, size_t* result
 ) {
   char* endptr = NULL;
-  unsigned long size = strtoul(value, &endptr, BASE_DECIMAL);
-  if (*endptr != '\0' || size == 0) {
+  long size = strtol(value, &endptr, BASE_DECIMAL);
+  if (*endptr != '\0' || size <= 0) {
     (void)fprintf(stderr, "Invalid %s: %s\n", param_name, value);
     return -1;
   }
   *result = (size_t)size;
+  return 0;
+}
+
+static int parse_single_argument(
+    const char* key, io_params_t* params, const char* value
+) {
+  if (strcmp(key, "--rw") == 0) {
+    if (parse_rw_mode(value, &params->rw_mode) != 0) {
+      return -1;
+    }
+  } else if (strcmp(key, "--block_size") == 0) {
+    if (parse_size_param(value, "block_size", &params->block_size) != 0) {
+      return -1;
+    }
+  } else if (strcmp(key, "--block_count") == 0) {
+    if (parse_size_param(value, "block_count", &params->block_count) != 0) {
+      return -1;
+    }
+  } else if (strcmp(key, "--file") == 0) {
+    params->filename = value;
+  } else if (strcmp(key, "--range") == 0) {
+    if (parse_range(value, &params->range_start, &params->range_end) != 0) {
+      return -1;
+    }
+  } else if (strcmp(key, "--direct") == 0) {
+    if (parse_direct_mode(value, &params->direct) != 0) {
+      return -1;
+    }
+  } else if (strcmp(key, "--type") == 0) {
+    if (parse_access_type(value, &params->access_type) != 0) {
+      return -1;
+    }
+  } else {
+    (void)fprintf(stderr, "Unknown parameter: %s\n", key);
+    return -1;
+  }
   return 0;
 }
 
@@ -132,34 +168,7 @@ static int parse_arguments(
     }
     char* value = argv[i];
 
-    if (strcmp(key, "--rw") == 0) {
-      if (parse_rw_mode(value, &params->rw_mode) != 0) {
-        return -1;
-      }
-    } else if (strcmp(key, "--block_size") == 0) {
-      if (parse_size_param(value, "block_size", &params->block_size) != 0) {
-        return -1;
-      }
-    } else if (strcmp(key, "--block_count") == 0) {
-      if (parse_size_param(value, "block_count", &params->block_count) != 0) {
-        return -1;
-      }
-    } else if (strcmp(key, "--file") == 0) {
-      params->filename = value;
-    } else if (strcmp(key, "--range") == 0) {
-      if (parse_range(value, &params->range_start, &params->range_end) != 0) {
-        return -1;
-      }
-    } else if (strcmp(key, "--direct") == 0) {
-      if (parse_direct_mode(value, &params->direct) != 0) {
-        return -1;
-      }
-    } else if (strcmp(key, "--type") == 0) {
-      if (parse_access_type(value, &params->access_type) != 0) {
-        return -1;
-      }
-    } else {
-      (void)fprintf(stderr, "Unknown parameter: %s\n", key);
+    if (parse_single_argument(key, params, value) != 0) {
       return -1;
     }
   }
@@ -176,7 +185,6 @@ static int parse_arguments(
     (void)fprintf(stderr, "Missing required parameters\n");
     return -1;
   }
-
   return 0;
 }
 
@@ -225,22 +233,6 @@ static int determine_working_range(
   }
 
   return 0;
-}
-
-static void* create_buffer(size_t size, long page_size, direct_mode_t direct) {
-  void* buffer = NULL;
-  if (direct == DIRECT_ON) {
-    if (posix_memalign(&buffer, page_size, size) != 0) {
-      perror("posix_memalign failed");
-      return NULL;
-    }
-  } else {
-    buffer = malloc(size);
-    if (buffer == NULL) {
-      perror("malloc failed");
-    }
-  }
-  return buffer;
 }
 
 static int perform_io_operation(
@@ -351,7 +343,17 @@ int main(int argc, char* argv[]) {
     return 1;
   }
 
-  void* buffer = create_buffer(params.block_size, page_size, params.direct);
+  void* buffer = NULL;
+  if (params.direct == DIRECT_ON) {
+    if (posix_memalign(&buffer, page_size, params.block_size) != 0) {
+      perror("posix_memalign failed");
+    }
+  } else {
+    buffer = malloc(params.block_size);
+    if (buffer == NULL) {
+      perror("malloc failed");
+    }
+  }
   if (buffer == NULL) {
     close(file_descriptor);
     return 1;

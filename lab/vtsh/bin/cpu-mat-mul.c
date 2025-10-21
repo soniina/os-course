@@ -6,14 +6,14 @@
 
 #define BASE_DECIMAL 10
 
-void generate_matrix(double* matrix, int size) {
+void generate_matrix(double* matrix, size_t size) {
   for (int i = 0; i < size * size; i++) {
     matrix[i] = (double)random() / RAND_MAX;
   }
 }
 
 void multiply_matrices(
-    const double* matrix1, const double* matrix2, double* result, int size
+    const double* matrix1, const double* matrix2, double* result, size_t size
 ) {
   for (int i = 0; i < size; i++) {
     for (int j = 0; j < size; j++) {
@@ -26,29 +26,46 @@ void multiply_matrices(
   }
 }
 
-int main(int argc, char* argv[]) {
-  int size = 0;
-  int iterations = 1;
-
+static int parse_arguments(
+    int argc, char* argv[], size_t* size, long* iterations
+) {
   for (int i = 1; i < argc; i++) {
-    if (strcmp(argv[i], "--size") == 0) {
-      char* endptr = 0;
-      size = (int)strtol(argv[++i], &endptr, BASE_DECIMAL);
-      if (*endptr != '\0') {
-        (void)fprintf(stderr, "Invalid size: %s\n", argv[i]);
-        return 1;
+    char* key = argv[i++];
+    if (i >= argc) {
+      (void)fprintf(stderr, "Missing value for --%s\n", key);
+      return -1;
+    }
+    char* value = argv[i];
+
+    if (strcmp(key, "--size") == 0) {
+      char* endptr = NULL;
+      long tmp_size = strtol(value, &endptr, BASE_DECIMAL);
+      if (*endptr != '\0' || tmp_size <= 0) {
+        (void)fprintf(stderr, "Invalid size: %s\n", value);
+        return -1;
       }
-    } else if (strcmp(argv[i], "--iterations") == 0) {
-      char* endptr = 0;
-      iterations = (int)strtol(argv[++i], &endptr, BASE_DECIMAL);
-      if (*endptr != '\0') {
-        (void)fprintf(stderr, "Invalid iterations: %s\n", argv[i]);
-        return 1;
+      *size = (size_t)tmp_size;
+    } else if (strcmp(key, "--iterations") == 0) {
+      char* endptr = NULL;
+      long tmp_iterations = strtol(value, &endptr, BASE_DECIMAL);
+      if (*endptr != '\0' || tmp_iterations <= 0) {
+        (void)fprintf(stderr, "Invalid iterations: %s\n", value);
+        return -1;
       }
+      *iterations = tmp_iterations;
+    } else {
+      (void)fprintf(stderr, "Unknown parameter: %s\n", key);
+      return -1;
     }
   }
+  return 0;
+}
 
-  if (size <= 0) {
+int main(int argc, char* argv[]) {
+  size_t size = 0;
+  long iterations = 1;
+
+  if (argc <= 1 || parse_arguments(argc, argv, &size, &iterations) != 0) {
     (void)fprintf(
         stderr,
         "Usage: %s --size <matrix_size> [--iterations <count>]\n",
@@ -59,7 +76,7 @@ int main(int argc, char* argv[]) {
 
   srandom(time(NULL));
 
-  size_t total_size = (size_t)size * (size_t)size * sizeof(double);
+  size_t total_size = size * size * sizeof(double);
   double* matrix1 = (double*)malloc(total_size);
   double* matrix2 = (double*)malloc(total_size);
   double* result = (double*)malloc(total_size);
