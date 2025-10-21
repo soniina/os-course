@@ -9,6 +9,12 @@
 #define BUFFER_SIZE 32
 
 typedef struct {
+  char** file1;
+  char** file2;
+  char** output;
+} file_args_t;
+
+typedef struct {
   int id;
   char word[WORD_LENGTH];
 } row_t;
@@ -104,30 +110,51 @@ void nested_loop_join(
   }
 }
 
+static int parse_arguments(
+    int argc, char* argv[], file_args_t* files, long* iterations
+) {
+  for (int i = 1; i < argc; i++) {
+    char* key = argv[i++];
+    if (i >= argc) {
+      (void)fprintf(stderr, "Missing value for --%s\n", key);
+      return -1;
+    }
+    char* value = argv[i];
+
+    if (strcmp(key, "--file1") == 0) {
+      *(files->file1) = value;
+    } else if (strcmp(key, "--file2") == 0) {
+      *(files->file2) = value;
+    } else if (strcmp(key, "--output") == 0) {
+      *(files->output) = value;
+    } else if (strcmp(key, "--iterations") == 0) {
+      char* endptr = NULL;
+      long tmp_iterations = strtol(value, &endptr, BASE_DECIMAL);
+      if (*endptr != '\0' || tmp_iterations <= 0) {
+        (void)fprintf(stderr, "Invalid iterations: %s\n", value);
+        return -1;
+      }
+      *iterations = tmp_iterations;
+    } else {
+      (void)fprintf(stderr, "Unknown parameter: %s\n", key);
+      return -1;
+    }
+  }
+
+  if (!*(files->file1) || !*(files->file2)) {
+    return -1;
+  }
+  return 0;
+}
+
 int main(int argc, char* argv[]) {
   char* file1 = NULL;
   char* file2 = NULL;
   char* output = DEFAULT_OUPUT_FILENAME;
-  int iterations = 1;
+  file_args_t files = {&file1, &file2, &output};
+  long iterations = 1;
 
-  for (int i = 1; i < argc; i++) {
-    if (strcmp(argv[i], "--file1") == 0) {
-      file1 = argv[++i];
-    } else if (strcmp(argv[i], "--file2") == 0) {
-      file2 = argv[++i];
-    } else if (strcmp(argv[i], "--output") == 0) {
-      output = argv[++i];
-    } else if (strcmp(argv[i], "--iterations") == 0) {
-      char* endptr = 0;
-      iterations = (int)strtol(argv[++i], &endptr, BASE_DECIMAL);
-      if (*endptr != '\0') {
-        (void)fprintf(stderr, "Invalid iterations: %s\n", argv[i]);
-        return 1;
-      }
-    }
-  }
-
-  if (!file1 || !file2) {
+  if (argc <= 2 || parse_arguments(argc, argv, &files, &iterations) != 0) {
     (void)fprintf(
         stderr,
         "Usage: %s --file1 <path> --file2 <path> [--output <path>] "
