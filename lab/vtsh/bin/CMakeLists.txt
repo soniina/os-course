@@ -9,8 +9,18 @@ add_executable(
 )
 
 add_executable(
+    cpu-mat-mul-threaded
+    cpu-mat-mul-threaded.c
+)
+
+add_executable(
     ema-join-nl
     ema-join-nl.c
+)
+
+add_executable(
+    ema-join-nl-threaded
+    ema-join-nl-threaded.c
 )
 
 add_executable(

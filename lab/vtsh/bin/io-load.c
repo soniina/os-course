@@ -203,8 +203,7 @@ static int determine_working_range(
     if (params->rw_mode == MODE_READ) {
       actual_range->end = file_size;
     } else {
-      actual_range->end = actual_range->start +
-                          (off_t)(params->block_count * params->block_size);
+      actual_range->end = actual_range->start + (off_t)params->block_size;
     }
   }
 
