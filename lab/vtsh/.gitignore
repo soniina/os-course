@@ -7,9 +7,10 @@ build/
 # Python
 __pycache__/
 
-.DS_Store
+**/.DS_Store
 .vscode
 Dockerfile
 docker-entrypoint.sh
 test/shell
 .vscode
+scripts/

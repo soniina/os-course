@@ -1,8 +1,10 @@
+#include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <sys/time.h>
 #include <time.h>
+#include <unistd.h>
 
 #define BASE_DECIMAL 10
 #define BUFFER_SIZE 1024
@@ -13,6 +15,14 @@ typedef struct {
   char** matrix2;
   char** result;
 } file_args_t;
+
+typedef struct {
+  size_t size;
+  char* matrix1_file;
+  char* matrix2_file;
+  char* output;
+  long iterations;
+} thread_args_t;
 
 double* load_matrix(const char* filename, size_t size) {
   FILE* file = fopen(filename, "r");
@@ -154,6 +164,45 @@ static int parse_arguments(
   return 0;
 }
 
+void* thread_work(void* arg) {
+  thread_args_t* data = (thread_args_t*)arg;
+  double* matrix1 = load_matrix(data->matrix1_file, data->size);
+  if (matrix1 == NULL) {
+    pthread_exit(NULL);
+  }
+
+  double* matrix2 = load_matrix(data->matrix2_file, data->size);
+  if (matrix2 == NULL) {
+    free(matrix1);
+    pthread_exit(NULL);
+  }
+
+  double* result = (double*)malloc(data->size * data->size * sizeof(double));
+  if (result == NULL) {
+    perror("malloc failed");
+    free(matrix1);
+    free(matrix2);
+    pthread_exit(NULL);
+  }
+
+  for (int iter = 0; iter < data->iterations; iter++) {
+    multiply_matrices(matrix1, matrix2, result, data->size);
+  }
+
+  if (write_matrix(data->output, result, data->size) != 0) {
+    free(matrix1);
+    free(matrix2);
+    free(result);
+    pthread_exit(NULL);
+  }
+
+  free(matrix1);
+  free(matrix2);
+  free(result);
+
+  pthread_exit(NULL);
+}
+
 int main(int argc, char* argv[]) {
   size_t size = 0;
   char* matrix1_file = NULL;
@@ -174,38 +223,35 @@ int main(int argc, char* argv[]) {
     return 1;
   }
 
-  double* matrix1 = load_matrix(matrix1_file, size);
-  if (matrix1 == NULL) {
-    return 1;
-  }
+  long num_threads = sysconf(_SC_NPROCESSORS_ONLN);
+  pthread_t* threads = malloc(num_threads * sizeof(pthread_t));
+  thread_args_t* thread_args = malloc(num_threads * sizeof(thread_args_t));
 
-  double* matrix2 = load_matrix(matrix2_file, size);
-  if (matrix2 == NULL) {
-    free(matrix1);
-    return 1;
-  }
-
-  double* result = (double*)malloc(size * size * sizeof(double));
-  if (result == NULL) {
+  if (threads == NULL || thread_args == NULL) {
     perror("malloc failed");
-    free(matrix1);
-    free(matrix2);
     return 1;
   }
 
-  for (int iter = 0; iter < iterations; iter++) {
-    multiply_matrices(matrix1, matrix2, result, size);
+  for (int i = 0; i < num_threads; i++) {
+    thread_args[i].size = size;
+    thread_args[i].matrix1_file = matrix1_file;
+    thread_args[i].matrix2_file = matrix2_file;
+    thread_args[i].output = output;
+    thread_args[i].iterations = iterations;
+
+    if (pthread_create(&threads[i], NULL, thread_work, &thread_args[i]) != 0) {
+      perror("pthread_create failed");
+      free(threads);
+      free(thread_args);
+      return 1;
+    }
   }
 
-  if (write_matrix(output, result, size) != 0) {
-    free(matrix1);
-    free(matrix2);
-    free(result);
-    return 1;
+  for (int i = 0; i < num_threads; i++) {
+    pthread_join(threads[i], NULL);
   }
 
-  free(matrix1);
-  free(matrix2);
-  free(result);
+  free(threads);
+  free(thread_args);
   return 0;
 }

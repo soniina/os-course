@@ -1,0 +1,1747 @@
+> top -d 1 -p <pids>
+
+top - 20:36:16 up  7:20,  0 users,  load average: 0.89, 0.43, 0.47
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 34.7 us,  8.0 sy,  0.0 ni, 50.7 id,  6.7 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3919.4 total,   3143.4 free,    548.3 used,    366.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3371.1 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 290.9   0.0   0:01.57 ema-join-+
+
+top - 20:36:17 up  7:20,  0 users,  load average: 0.89, 0.43, 0.47
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 35.1 us,  7.1 sy,  0.0 ni, 49.0 id,  8.0 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3143.4 free,    548.3 used,    366.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3371.1 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 316.0   0.0   0:04.73 ema-join-+
+
+top - 20:36:18 up  7:20,  0 users,  load average: 0.89, 0.43, 0.47
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 37.5 us,  7.9 sy,  0.0 ni, 40.2 id, 13.5 wa,  0.0 hi,  0.9 si,  0.0 st 
+MiB Mem :   3919.4 total,   3143.4 free,    548.3 used,    366.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3371.1 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 331.0   0.0   0:08.04 ema-join-+
+
+top - 20:36:19 up  7:20,  0 users,  load average: 0.89, 0.43, 0.47
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 37.8 us,  7.6 sy,  0.0 ni, 40.3 id, 13.5 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3136.5 free,    555.2 used,    366.4 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3364.2 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 336.0   0.0   0:11.40 ema-join-+
+
+top - 20:36:20 up  7:20,  0 users,  load average: 0.89, 0.43, 0.47
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 38.4 us,  7.2 sy,  0.0 ni, 40.4 id, 13.4 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3136.5 free,    555.2 used,    366.4 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3364.2 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 339.0   0.0   0:14.79 ema-join-+
+
+top - 20:36:21 up  7:20,  0 users,  load average: 1.30, 0.52, 0.50
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.0 us, 10.0 sy,  0.0 ni, 38.0 id, 12.4 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   3136.5 free,    555.2 used,    366.4 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3364.2 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 352.0   0.0   0:18.31 ema-join-+
+
+top - 20:36:22 up  7:20,  0 users,  load average: 1.30, 0.52, 0.50
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.3 us,  8.7 sy,  0.0 ni, 38.8 id, 12.6 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3129.2 free,    562.6 used,    366.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3356.8 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 350.0   0.0   0:21.81 ema-join-+
+
+top - 20:36:23 up  7:20,  0 users,  load average: 1.30, 0.52, 0.50
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 38.3 us,  9.1 sy,  0.0 ni, 38.9 id, 12.9 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3129.2 free,    562.6 used,    366.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3356.8 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 345.0   0.0   0:25.26 ema-join-+
+
+top - 20:36:24 up  7:20,  0 users,  load average: 1.30, 0.52, 0.50
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 37.6 us, 10.2 sy,  0.0 ni, 38.4 id, 13.0 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3129.2 free,    562.6 used,    366.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3356.8 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 345.5   0.0   0:28.75 ema-join-+
+
+top - 20:36:25 up  7:20,  0 users,  load average: 1.30, 0.52, 0.50
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 38.7 us,  8.1 sy,  0.0 ni, 39.5 id, 12.8 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3122.4 free,    569.3 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3350.1 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 346.0   0.0   0:32.21 ema-join-+
+
+top - 20:36:26 up  7:20,  0 users,  load average: 1.51, 0.58, 0.52
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.0 us,  8.3 sy,  0.0 ni, 39.0 id, 12.9 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3122.4 free,    569.3 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3350.1 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 347.0   0.0   0:35.68 ema-join-+
+
+top - 20:36:27 up  7:20,  0 users,  load average: 1.51, 0.58, 0.52
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 35.8 us,  6.9 sy,  0.0 ni, 42.6 id, 14.0 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3122.4 free,    569.3 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3350.1 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 320.0   0.0   0:38.88 ema-join-+
+
+top - 20:36:28 up  7:20,  0 users,  load average: 1.51, 0.58, 0.52
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.5 us,  8.8 sy,  0.0 ni, 38.6 id, 12.5 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3118.3 free,    573.4 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3346.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 355.0   0.0   0:42.43 ema-join-+
+
+top - 20:36:29 up  7:20,  0 users,  load average: 1.51, 0.58, 0.52
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 38.5 us,  7.6 sy,  0.0 ni, 39.6 id, 13.5 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3118.3 free,    573.4 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3346.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 341.0   0.0   0:45.84 ema-join-+
+
+top - 20:36:30 up  7:20,  0 users,  load average: 1.51, 0.58, 0.52
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.0 us,  8.3 sy,  0.0 ni, 39.0 id, 12.9 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3118.3 free,    573.4 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3346.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 339.6   0.0   0:49.27 ema-join-+
+
+top - 20:36:31 up  7:20,  0 users,  load average: 1.95, 0.69, 0.55
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.1 us,  8.2 sy,  0.0 ni, 38.4 id, 12.7 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3116.4 free,    575.3 used,    366.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3344.1 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 356.0   0.0   0:52.83 ema-join-+
+
+top - 20:36:32 up  7:20,  0 users,  load average: 1.95, 0.69, 0.55
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.4 us,  7.9 sy,  0.0 ni, 39.2 id, 12.7 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3116.4 free,    575.3 used,    366.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3344.1 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 346.0   0.0   0:56.29 ema-join-+
+
+top - 20:36:33 up  7:20,  0 users,  load average: 1.95, 0.69, 0.55
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 38.9 us,  7.4 sy,  0.0 ni, 39.9 id, 13.2 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   3116.4 free,    575.3 used,    366.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3344.1 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 346.0   0.0   0:59.75 ema-join-+
+
+top - 20:36:34 up  7:20,  0 users,  load average: 1.95, 0.69, 0.55
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 38.9 us,  8.3 sy,  0.0 ni, 39.3 id, 12.8 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3111.6 free,    580.0 used,    366.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3339.4 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 345.0   0.0   1:03.20 ema-join-+
+
+top - 20:36:35 up  7:20,  0 users,  load average: 1.95, 0.69, 0.55
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.4 us,  7.8 sy,  0.0 ni, 39.2 id, 13.0 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3111.6 free,    580.0 used,    366.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3339.4 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 349.0   0.0   1:06.69 ema-join-+
+
+top - 20:36:36 up  7:21,  0 users,  load average: 2.36, 0.79, 0.59
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.2 us,  8.2 sy,  0.0 ni, 39.2 id, 12.7 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3111.6 free,    580.0 used,    366.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3339.4 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 344.6   0.0   1:10.17 ema-join-+
+
+top - 20:36:37 up  7:21,  0 users,  load average: 2.36, 0.79, 0.59
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 38.4 us,  8.2 sy,  0.0 ni, 39.7 id, 13.2 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   3107.2 free,    584.5 used,    366.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3335.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 345.0   0.0   1:13.62 ema-join-+
+
+top - 20:36:38 up  7:21,  0 users,  load average: 2.36, 0.79, 0.59
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.1 us,  7.5 sy,  0.0 ni, 38.6 id, 13.1 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3107.2 free,    584.5 used,    366.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3335.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 346.0   0.0   1:17.08 ema-join-+
+
+top - 20:36:39 up  7:21,  0 users,  load average: 2.36, 0.79, 0.59
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.8 us,  9.1 sy,  0.0 ni, 38.2 id, 12.3 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3107.2 free,    584.5 used,    366.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3335.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 357.0   0.0   1:20.65 ema-join-+
+
+top - 20:36:40 up  7:21,  0 users,  load average: 2.36, 0.79, 0.59
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.1 us,  8.2 sy,  0.0 ni, 39.1 id, 12.8 wa,  0.0 hi,  0.9 si,  0.0 st 
+MiB Mem :   3919.4 total,   3106.0 free,    585.7 used,    366.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3333.8 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 347.0   0.0   1:24.12 ema-join-+
+
+top - 20:36:41 up  7:21,  0 users,  load average: 2.57, 0.86, 0.61
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.7 us,  7.5 sy,  0.0 ni, 39.3 id, 12.9 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   3106.0 free,    585.7 used,    366.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3333.8 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 345.0   0.0   1:27.57 ema-join-+
+
+top - 20:36:42 up  7:21,  0 users,  load average: 2.57, 0.86, 0.61
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 36.2 us,  7.2 sy,  0.0 ni, 42.5 id, 13.2 wa,  0.0 hi,  0.9 si,  0.0 st 
+MiB Mem :   3919.4 total,   3106.0 free,    585.7 used,    366.5 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3333.8 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 312.0   0.0   1:30.69 ema-join-+
+
+top - 20:36:43 up  7:21,  0 users,  load average: 2.57, 0.86, 0.61
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.4 us,  8.6 sy,  0.0 ni, 38.7 id, 12.7 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3099.7 free,    591.9 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3327.5 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 342.6   0.0   1:34.15 ema-join-+
+
+top - 20:36:44 up  7:21,  0 users,  load average: 2.57, 0.86, 0.61
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.8 us,  9.1 sy,  0.0 ni, 38.0 id, 12.4 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3099.7 free,    591.9 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3327.5 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 355.0   0.0   1:37.70 ema-join-+
+
+top - 20:36:45 up  7:21,  0 users,  load average: 2.57, 0.86, 0.61
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.8 us,  9.3 sy,  0.0 ni, 37.7 id, 12.6 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   3099.7 free,    591.9 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3327.5 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 355.0   0.0   1:41.25 ema-join-+
+
+top - 20:36:46 up  7:21,  0 users,  load average: 3.01, 0.98, 0.65
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 38.5 us,  8.5 sy,  0.0 ni, 39.4 id, 12.8 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3094.6 free,    597.0 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3322.4 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 347.0   0.0   1:44.72 ema-join-+
+
+top - 20:36:47 up  7:21,  0 users,  load average: 3.01, 0.98, 0.65
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 38.9 us,  8.6 sy,  0.0 ni, 38.8 id, 13.0 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3094.6 free,    597.0 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3322.4 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 349.0   0.0   1:48.21 ema-join-+
+
+top - 20:36:48 up  7:21,  0 users,  load average: 3.01, 0.98, 0.65
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.0 us,  7.6 sy,  0.0 ni, 39.8 id, 13.0 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3094.6 free,    597.0 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3322.4 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 346.0   0.0   1:51.67 ema-join-+
+
+top - 20:36:49 up  7:21,  0 users,  load average: 3.01, 0.98, 0.65
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 36.2 us,  7.9 sy,  0.0 ni, 41.1 id, 13.9 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3087.0 free,    604.7 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3314.8 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 325.0   0.0   1:54.92 ema-join-+
+
+top - 20:36:50 up  7:21,  0 users,  load average: 3.01, 0.98, 0.65
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 38.0 us,  8.0 sy,  0.0 ni, 39.9 id, 13.3 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3087.0 free,    604.7 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3314.8 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 337.6   0.0   1:58.33 ema-join-+
+
+top - 20:36:51 up  7:21,  0 users,  load average: 3.41, 1.10, 0.69
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 34.4 us,  7.6 sy,  0.0 ni, 43.1 id, 13.9 wa,  0.0 hi,  0.9 si,  0.0 st 
+MiB Mem :   3919.4 total,   3087.0 free,    604.7 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3314.8 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 311.0   0.0   2:01.44 ema-join-+
+
+top - 20:36:52 up  7:21,  0 users,  load average: 3.41, 1.10, 0.69
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.1 us,  9.5 sy,  0.0 ni, 38.4 id, 12.5 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   3083.3 free,    608.3 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3311.1 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 353.0   0.0   2:04.97 ema-join-+
+
+top - 20:36:53 up  7:21,  0 users,  load average: 3.41, 1.10, 0.69
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.4 us,  7.4 sy,  0.0 ni, 38.5 id, 12.9 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3083.3 free,    608.3 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3311.1 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 350.0   0.0   2:08.47 ema-join-+
+
+top - 20:36:54 up  7:21,  0 users,  load average: 3.41, 1.10, 0.69
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.5 us,  8.9 sy,  0.0 ni, 38.5 id, 12.6 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   3083.3 free,    608.3 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3311.1 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 357.0   0.0   2:12.04 ema-join-+
+
+top - 20:36:55 up  7:21,  0 users,  load average: 3.41, 1.10, 0.69
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.1 us,  8.1 sy,  0.0 ni, 39.3 id, 12.5 wa,  0.0 hi,  0.9 si,  0.0 st 
+MiB Mem :   3919.4 total,   3079.4 free,    612.3 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3307.1 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 349.0   0.0   2:15.53 ema-join-+
+
+top - 20:36:56 up  7:21,  0 users,  load average: 3.53, 1.16, 0.71
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.3 us,  8.3 sy,  0.0 ni, 38.2 id, 12.6 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   3079.4 free,    612.3 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3307.1 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 352.5   0.0   2:19.09 ema-join-+
+
+top - 20:36:57 up  7:21,  0 users,  load average: 3.53, 1.16, 0.71
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 38.3 us,  7.5 sy,  0.0 ni, 41.1 id, 12.5 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3079.4 free,    612.3 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3307.1 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 340.0   0.0   2:22.49 ema-join-+
+
+top - 20:36:58 up  7:21,  0 users,  load average: 3.53, 1.16, 0.71
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.5 us,  8.7 sy,  0.0 ni, 37.5 id, 12.5 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3074.8 free,    616.9 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3302.5 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 357.0   0.0   2:26.06 ema-join-+
+
+top - 20:36:59 up  7:21,  0 users,  load average: 3.53, 1.16, 0.71
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.3 us,  8.4 sy,  0.0 ni, 37.9 id, 12.6 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3074.8 free,    616.9 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3302.5 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 354.0   0.0   2:29.60 ema-join-+
+
+top - 20:37:00 up  7:21,  0 users,  load average: 3.53, 1.16, 0.71
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.8 us,  8.2 sy,  0.0 ni, 38.9 id, 12.5 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   3074.8 free,    616.9 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3302.5 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 356.0   0.0   2:33.16 ema-join-+
+
+top - 20:37:01 up  7:21,  0 users,  load average: 3.49, 1.19, 0.73
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.2 us,  8.0 sy,  0.0 ni, 38.2 id, 12.7 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3069.6 free,    622.1 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3297.4 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 352.0   0.0   2:36.68 ema-join-+
+
+top - 20:37:02 up  7:21,  0 users,  load average: 3.49, 1.19, 0.73
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.7 us,  8.0 sy,  0.0 ni, 37.9 id, 12.6 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3069.6 free,    622.1 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3297.4 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 355.0   0.0   2:40.23 ema-join-+
+
+top - 20:37:03 up  7:21,  0 users,  load average: 3.49, 1.19, 0.73
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.9 us,  8.5 sy,  0.0 ni, 38.6 id, 12.4 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   3069.6 free,    622.1 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3297.4 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 353.0   0.0   2:43.76 ema-join-+
+
+top - 20:37:04 up  7:21,  0 users,  load average: 3.49, 1.19, 0.73
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 38.6 us,  8.5 sy,  0.0 ni, 39.3 id, 12.9 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3064.3 free,    627.3 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3292.1 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 344.6   0.0   2:47.24 ema-join-+
+
+top - 20:37:05 up  7:21,  0 users,  load average: 3.49, 1.19, 0.73
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.8 us,  7.3 sy,  0.0 ni, 39.3 id, 12.8 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3064.3 free,    627.3 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3292.1 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 349.0   0.0   2:50.73 ema-join-+
+
+top - 20:37:06 up  7:21,  0 users,  load average: 3.53, 1.24, 0.75
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.0 us,  7.8 sy,  0.0 ni, 38.6 id, 12.9 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3064.3 free,    627.3 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3292.1 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 352.0   0.0   2:54.25 ema-join-+
+
+top - 20:37:07 up  7:21,  0 users,  load average: 3.53, 1.24, 0.75
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 38.4 us,  8.3 sy,  0.0 ni, 40.4 id, 12.1 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3058.4 free,    633.2 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3286.2 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 343.0   0.0   2:57.68 ema-join-+
+
+top - 20:37:08 up  7:21,  0 users,  load average: 3.53, 1.24, 0.75
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.5 us,  8.9 sy,  0.0 ni, 38.1 id, 12.9 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3058.4 free,    633.2 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3286.2 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 355.0   0.0   3:01.23 ema-join-+
+
+top - 20:37:09 up  7:21,  0 users,  load average: 3.53, 1.24, 0.75
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.2 us,  8.1 sy,  0.0 ni, 38.5 id, 12.5 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3058.4 free,    633.2 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3286.2 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 355.0   0.0   3:04.78 ema-join-+
+
+top - 20:37:10 up  7:21,  0 users,  load average: 3.53, 1.24, 0.75
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.5 us,  8.5 sy,  0.0 ni, 38.0 id, 12.2 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3058.1 free,    633.5 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3285.9 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 349.5   0.0   3:08.31 ema-join-+
+
+top - 20:37:11 up  7:21,  0 users,  load average: 3.73, 1.32, 0.77
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.9 us,  8.0 sy,  0.0 ni, 38.2 id, 12.1 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3058.1 free,    633.5 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3285.9 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 355.0   0.0   3:11.86 ema-join-+
+
+top - 20:37:12 up  7:21,  0 users,  load average: 3.73, 1.32, 0.77
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.4 us,  7.5 sy,  0.0 ni, 39.8 id, 12.3 wa,  0.0 hi,  0.9 si,  0.0 st 
+MiB Mem :   3919.4 total,   3058.1 free,    633.5 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3285.9 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 338.0   0.0   3:15.24 ema-join-+
+
+top - 20:37:13 up  7:21,  0 users,  load average: 3.73, 1.32, 0.77
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.7 us,  9.4 sy,  0.0 ni, 38.0 id, 12.5 wa,  0.0 hi,  0.4 si,  0.0 st 
+MiB Mem :   3919.4 total,   3052.0 free,    639.6 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3279.8 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 357.0   0.0   3:18.81 ema-join-+
+
+top - 20:37:14 up  7:21,  0 users,  load average: 3.73, 1.32, 0.77
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.3 us,  9.6 sy,  0.0 ni, 38.0 id, 12.3 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3052.0 free,    639.6 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3279.8 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 346.0   0.0   3:22.27 ema-join-+
+
+top - 20:37:15 up  7:21,  0 users,  load average: 3.73, 1.32, 0.77
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 38.1 us,  8.8 sy,  0.0 ni, 39.4 id, 13.1 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3052.0 free,    639.6 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3279.8 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 346.0   0.0   3:25.73 ema-join-+
+
+top - 20:37:16 up  7:21,  0 users,  load average: 4.07, 1.43, 0.81
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.7 us,  8.2 sy,  0.0 ni, 38.7 id, 12.6 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3033.4 free,    658.3 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3261.2 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 355.0   0.0   3:29.28 ema-join-+
+
+top - 20:37:17 up  7:21,  0 users,  load average: 4.07, 1.43, 0.81
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.0 us,  9.1 sy,  0.0 ni, 38.1 id, 12.3 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   3033.4 free,    658.3 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3261.2 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 360.0   0.0   3:32.88 ema-join-+
+
+top - 20:37:18 up  7:21,  0 users,  load average: 4.07, 1.43, 0.81
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.8 us,  8.3 sy,  0.0 ni, 38.6 id, 12.6 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3033.4 free,    658.3 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3261.2 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 352.5   0.0   3:36.44 ema-join-+
+
+top - 20:37:19 up  7:21,  0 users,  load average: 4.07, 1.43, 0.81
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.4 us,  9.0 sy,  0.0 ni, 38.4 id, 12.6 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3028.6 free,    663.0 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3256.4 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 356.0   0.0   3:40.00 ema-join-+
+
+top - 20:37:20 up  7:21,  0 users,  load average: 4.07, 1.43, 0.81
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 38.9 us,  9.0 sy,  0.0 ni, 38.6 id, 12.6 wa,  0.0 hi,  0.9 si,  0.0 st 
+MiB Mem :   3919.4 total,   3028.6 free,    663.0 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3256.4 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 354.0   0.0   3:43.54 ema-join-+
+
+top - 20:37:21 up  7:21,  0 users,  load average: 4.15, 1.49, 0.84
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.7 us,  8.5 sy,  0.0 ni, 38.5 id, 12.6 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3028.6 free,    663.0 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3256.4 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 353.0   0.0   3:47.07 ema-join-+
+
+top - 20:37:22 up  7:21,  0 users,  load average: 4.15, 1.49, 0.84
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.5 us,  8.4 sy,  0.0 ni, 38.7 id, 12.7 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3021.8 free,    669.8 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3249.6 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 356.0   0.0   3:50.63 ema-join-+
+
+top - 20:37:23 up  7:21,  0 users,  load average: 4.15, 1.49, 0.84
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.3 us,  8.3 sy,  0.0 ni, 38.0 id, 12.6 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3021.8 free,    669.8 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3249.6 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 357.0   0.0   3:54.20 ema-join-+
+
+top - 20:37:24 up  7:21,  0 users,  load average: 4.15, 1.49, 0.84
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.0 us,  8.4 sy,  0.0 ni, 38.5 id, 12.4 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3021.8 free,    669.8 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3249.6 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 351.5   0.0   3:57.75 ema-join-+
+
+top - 20:37:25 up  7:21,  0 users,  load average: 4.15, 1.49, 0.84
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.6 us,  8.8 sy,  0.0 ni, 38.5 id, 12.5 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   3017.6 free,    674.0 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3245.4 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 356.0   0.0   4:01.31 ema-join-+
+
+top - 20:37:26 up  7:21,  0 users,  load average: 4.37, 1.58, 0.87
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.5 us,  8.8 sy,  0.0 ni, 37.7 id, 12.5 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3017.6 free,    674.0 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3245.4 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 359.0   0.0   4:04.90 ema-join-+
+
+top - 20:37:27 up  7:21,  0 users,  load average: 4.37, 1.58, 0.87
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 37.1 us,  7.8 sy,  0.0 ni, 40.8 id, 13.7 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3017.6 free,    674.0 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3245.4 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 325.0   0.0   4:08.15 ema-join-+
+
+top - 20:37:28 up  7:21,  0 users,  load average: 4.37, 1.58, 0.87
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.1 us,  8.1 sy,  0.0 ni, 38.3 id, 12.9 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3011.7 free,    679.9 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3239.5 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 351.0   0.0   4:11.66 ema-join-+
+
+top - 20:37:29 up  7:21,  0 users,  load average: 4.37, 1.58, 0.87
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.9 us,  8.5 sy,  0.0 ni, 38.5 id, 12.4 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3011.7 free,    679.9 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3239.5 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 358.0   0.0   4:15.24 ema-join-+
+
+top - 20:37:30 up  7:21,  0 users,  load average: 4.37, 1.58, 0.87
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.4 us,  8.9 sy,  0.0 ni, 37.5 id, 12.3 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3011.7 free,    679.9 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3239.5 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 358.0   0.0   4:18.82 ema-join-+
+
+top - 20:37:31 up  7:21,  0 users,  load average: 4.43, 1.64, 0.89
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.8 us,  8.5 sy,  0.0 ni, 38.2 id, 12.7 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3010.8 free,    680.8 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3238.6 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 355.0   0.0   4:22.37 ema-join-+
+
+top - 20:37:32 up  7:21,  0 users,  load average: 4.43, 1.64, 0.89
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.4 us,  8.4 sy,  0.0 ni, 37.9 id, 12.4 wa,  0.0 hi,  0.9 si,  0.0 st 
+MiB Mem :   3919.4 total,   3010.8 free,    680.8 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3238.6 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 352.5   0.0   4:25.93 ema-join-+
+
+top - 20:37:33 up  7:21,  0 users,  load average: 4.43, 1.64, 0.89
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.5 us,  8.2 sy,  0.0 ni, 38.7 id, 12.8 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   3010.8 free,    680.8 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3238.6 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 356.0   0.0   4:29.49 ema-join-+
+
+top - 20:37:34 up  7:21,  0 users,  load average: 4.43, 1.64, 0.89
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.2 us,  8.7 sy,  0.0 ni, 39.0 id, 12.4 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3004.2 free,    687.4 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3232.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 354.0   0.0   4:33.03 ema-join-+
+
+top - 20:37:35 up  7:21,  0 users,  load average: 4.43, 1.64, 0.89
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 38.9 us,  8.4 sy,  0.0 ni, 38.8 id, 13.2 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3004.2 free,    687.4 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3232.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 353.0   0.0   4:36.56 ema-join-+
+
+top - 20:37:36 up  7:22,  0 users,  load average: 4.47, 1.69, 0.91
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.6 us,  8.5 sy,  0.0 ni, 38.1 id, 12.1 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   3004.2 free,    687.4 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3232.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 359.0   0.0   4:40.15 ema-join-+
+
+top - 20:37:37 up  7:22,  0 users,  load average: 4.47, 1.69, 0.91
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.5 us,  8.8 sy,  0.0 ni, 37.9 id, 12.3 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   2998.2 free,    693.4 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3226.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 355.0   0.0   4:43.70 ema-join-+
+
+top - 20:37:38 up  7:22,  0 users,  load average: 4.47, 1.69, 0.91
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.9 us,  9.2 sy,  0.0 ni, 38.0 id, 12.1 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   2998.2 free,    693.4 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3226.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 358.0   0.0   4:47.28 ema-join-+
+
+top - 20:37:39 up  7:22,  0 users,  load average: 4.47, 1.69, 0.91
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.5 us,  8.4 sy,  0.0 ni, 37.8 id, 12.6 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2998.2 free,    693.4 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3226.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 351.5   0.0   4:50.83 ema-join-+
+
+top - 20:37:40 up  7:22,  0 users,  load average: 4.47, 1.69, 0.91
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.3 us,  8.9 sy,  0.0 ni, 38.8 id, 12.5 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   3001.3 free,    690.3 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3229.2 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 357.0   0.0   4:54.40 ema-join-+
+
+top - 20:37:41 up  7:22,  0 users,  load average: 4.83, 1.82, 0.96
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 41.1 us,  7.6 sy,  0.0 ni, 37.8 id, 12.5 wa,  0.0 hi,  0.9 si,  0.0 st 
+MiB Mem :   3919.4 total,   3001.3 free,    690.3 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3229.2 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 355.0   0.0   4:57.95 ema-join-+
+
+top - 20:37:42 up  7:22,  0 users,  load average: 4.83, 1.82, 0.96
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 37.4 us,  7.8 sy,  0.0 ni, 41.3 id, 12.6 wa,  0.0 hi,  0.9 si,  0.0 st 
+MiB Mem :   3919.4 total,   3001.3 free,    690.3 used,    366.6 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3229.2 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 328.0   0.0   5:01.23 ema-join-+
+
+top - 20:37:43 up  7:22,  0 users,  load average: 4.83, 1.82, 0.96
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.6 us,  8.0 sy,  0.0 ni, 38.2 id, 12.5 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2998.5 free,    693.1 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3226.3 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 357.0   0.0   5:04.80 ema-join-+
+
+top - 20:37:44 up  7:22,  0 users,  load average: 4.83, 1.82, 0.96
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.2 us,  9.0 sy,  0.0 ni, 38.6 id, 12.5 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2998.5 free,    693.1 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3226.3 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 354.0   0.0   5:08.34 ema-join-+
+
+top - 20:37:45 up  7:22,  0 users,  load average: 4.83, 1.82, 0.96
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.7 us,  8.7 sy,  0.0 ni, 38.3 id, 12.6 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2998.5 free,    693.1 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3226.3 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 358.0   0.0   5:11.92 ema-join-+
+
+top - 20:37:46 up  7:22,  0 users,  load average: 4.77, 1.85, 0.97
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.5 us,  7.9 sy,  0.0 ni, 38.4 id, 12.4 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   2992.8 free,    698.8 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3220.7 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 351.5   0.0   5:15.47 ema-join-+
+
+top - 20:37:47 up  7:22,  0 users,  load average: 4.77, 1.85, 0.97
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.4 us,  8.0 sy,  0.0 ni, 38.4 id, 12.5 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2992.8 free,    698.8 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3220.7 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 355.0   0.0   5:19.02 ema-join-+
+
+top - 20:37:48 up  7:22,  0 users,  load average: 4.77, 1.85, 0.97
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 38.4 us,  7.7 sy,  0.0 ni, 40.4 id, 12.7 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   2992.8 free,    698.8 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3220.7 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 334.0   0.0   5:22.36 ema-join-+
+
+top - 20:37:49 up  7:22,  0 users,  load average: 4.77, 1.85, 0.97
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 36.0 us,  7.7 sy,  0.0 ni, 41.9 id, 13.8 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2989.4 free,    702.1 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3217.3 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 321.0   0.0   5:25.57 ema-join-+
+
+top - 20:37:50 up  7:22,  0 users,  load average: 4.77, 1.85, 0.97
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.0 us,  8.0 sy,  0.0 ni, 39.0 id, 12.4 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2989.4 free,    702.1 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3217.3 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 353.0   0.0   5:29.10 ema-join-+
+
+top - 20:37:51 up  7:22,  0 users,  load average: 4.95, 1.94, 1.01
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.5 us, 10.0 sy,  0.0 ni, 37.3 id, 12.5 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2989.4 free,    702.1 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3217.3 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 352.0   0.0   5:32.62 ema-join-+
+
+top - 20:37:52 up  7:22,  0 users,  load average: 4.95, 1.94, 1.01
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.6 us,  8.8 sy,  0.0 ni, 38.5 id, 12.5 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2986.1 free,    705.4 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3214.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 350.5   0.0   5:36.16 ema-join-+
+
+top - 20:37:53 up  7:22,  0 users,  load average: 4.95, 1.94, 1.01
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.4 us,  8.9 sy,  0.0 ni, 37.7 id, 12.3 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2986.1 free,    705.4 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3214.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 356.0   0.0   5:39.72 ema-join-+
+
+top - 20:37:54 up  7:22,  0 users,  load average: 4.95, 1.94, 1.01
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.4 us,  8.2 sy,  0.0 ni, 38.4 id, 12.3 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2986.1 free,    705.4 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3214.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 360.0   0.0   5:43.32 ema-join-+
+
+top - 20:37:55 up  7:22,  0 users,  load average: 4.95, 1.94, 1.01
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.9 us,  8.8 sy,  0.0 ni, 38.2 id, 12.5 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2987.3 free,    704.3 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3215.1 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 355.0   0.0   5:46.87 ema-join-+
+
+top - 20:37:56 up  7:22,  0 users,  load average: 5.03, 2.01, 1.03
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.2 us,  8.5 sy,  0.0 ni, 38.2 id, 12.6 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   2987.3 free,    704.3 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3215.1 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 358.0   0.0   5:50.45 ema-join-+
+
+top - 20:37:57 up  7:22,  0 users,  load average: 5.03, 2.01, 1.03
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 38.5 us,  8.2 sy,  0.0 ni, 40.1 id, 12.8 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   2987.3 free,    704.3 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3215.1 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 336.6   0.0   5:53.85 ema-join-+
+
+top - 20:37:58 up  7:22,  0 users,  load average: 5.03, 2.01, 1.03
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 41.0 us,  8.4 sy,  0.0 ni, 38.0 id, 12.0 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2985.6 free,    705.9 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3213.5 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 361.0   0.0   5:57.46 ema-join-+
+
+top - 20:37:59 up  7:22,  0 users,  load average: 5.03, 2.01, 1.03
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.9 us,  8.6 sy,  0.0 ni, 38.0 id, 12.8 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2985.6 free,    705.9 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3213.5 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 356.0   0.0   6:01.02 ema-join-+
+
+top - 20:38:00 up  7:22,  0 users,  load average: 5.03, 2.01, 1.03
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 41.2 us,  7.8 sy,  0.0 ni, 37.9 id, 12.5 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2985.6 free,    705.9 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3213.5 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 358.0   0.0   6:04.60 ema-join-+
+
+top - 20:38:01 up  7:22,  0 users,  load average: 5.03, 2.06, 1.05
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.9 us,  8.1 sy,  0.0 ni, 38.6 id, 12.8 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2988.3 free,    703.2 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3216.2 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 356.0   0.0   6:08.16 ema-join-+
+
+top - 20:38:02 up  7:22,  0 users,  load average: 5.03, 2.06, 1.05
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.7 us,  8.1 sy,  0.0 ni, 38.2 id, 12.4 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2988.3 free,    703.2 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3216.2 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 352.5   0.0   6:11.72 ema-join-+
+
+top - 20:38:03 up  7:22,  0 users,  load average: 5.03, 2.06, 1.05
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.8 us,  8.2 sy,  0.0 ni, 38.6 id, 12.8 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2988.3 free,    703.2 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3216.2 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 351.0   0.0   6:15.23 ema-join-+
+
+top - 20:38:04 up  7:22,  0 users,  load average: 5.03, 2.06, 1.05
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.4 us,  8.1 sy,  0.0 ni, 37.9 id, 12.5 wa,  0.0 hi,  1.1 si,  0.0 st 
+MiB Mem :   3919.4 total,   2985.1 free,    706.4 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3213.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 357.0   0.0   6:18.80 ema-join-+
+
+top - 20:38:05 up  7:22,  0 users,  load average: 5.03, 2.06, 1.05
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.0 us,  8.9 sy,  0.0 ni, 38.8 id, 12.5 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   2985.1 free,    706.4 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3213.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 356.0   0.0   6:22.36 ema-join-+
+
+top - 20:38:06 up  7:22,  0 users,  load average: 5.11, 2.12, 1.08
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.8 us,  8.3 sy,  0.0 ni, 38.6 id, 12.8 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   2985.1 free,    706.4 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3213.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 353.0   0.0   6:25.89 ema-join-+
+
+top - 20:38:07 up  7:22,  0 users,  load average: 5.11, 2.12, 1.08
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.5 us,  7.9 sy,  0.0 ni, 38.2 id, 12.8 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2981.1 free,    710.4 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3209.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 355.0   0.0   6:29.44 ema-join-+
+
+top - 20:38:08 up  7:22,  0 users,  load average: 5.11, 2.12, 1.08
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.0 us,  8.7 sy,  0.0 ni, 38.1 id, 12.3 wa,  0.0 hi,  0.9 si,  0.0 st 
+MiB Mem :   3919.4 total,   2981.1 free,    710.4 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3209.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 355.0   0.0   6:32.99 ema-join-+
+
+top - 20:38:09 up  7:22,  0 users,  load average: 5.11, 2.12, 1.08
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.0 us,  8.6 sy,  0.0 ni, 37.9 id, 12.8 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2981.1 free,    710.4 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3209.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 357.0   0.0   6:36.56 ema-join-+
+
+top - 20:38:10 up  7:22,  0 users,  load average: 5.11, 2.12, 1.08
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.4 us,  8.4 sy,  0.0 ni, 38.2 id, 12.4 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   2979.4 free,    712.1 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3207.3 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 352.5   0.0   6:40.12 ema-join-+
+
+top - 20:38:11 up  7:22,  0 users,  load average: 5.42, 2.24, 1.12
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.2 us,  8.2 sy,  0.0 ni, 38.7 id, 12.2 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2979.4 free,    712.1 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3207.3 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 355.0   0.0   6:43.67 ema-join-+
+
+top - 20:38:12 up  7:22,  0 users,  load average: 5.42, 2.24, 1.12
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 36.8 us,  7.9 sy,  0.0 ni, 41.9 id, 12.8 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2979.4 free,    712.1 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3207.3 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 327.0   0.0   6:46.94 ema-join-+
+
+top - 20:38:13 up  7:22,  0 users,  load average: 5.42, 2.24, 1.12
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.5 us,  8.6 sy,  0.0 ni, 38.9 id, 12.6 wa,  0.0 hi,  0.4 si,  0.0 st 
+MiB Mem :   3919.4 total,   2988.0 free,    703.5 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3215.9 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 355.0   0.0   6:50.49 ema-join-+
+
+top - 20:38:14 up  7:22,  0 users,  load average: 5.42, 2.24, 1.12
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 41.4 us,  8.7 sy,  0.0 ni, 37.1 id, 11.8 wa,  0.0 hi,  0.9 si,  0.0 st 
+MiB Mem :   3919.4 total,   2988.0 free,    703.5 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3215.9 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 346.0   0.0   6:53.95 ema-join-+
+
+top - 20:38:15 up  7:22,  0 users,  load average: 5.42, 2.24, 1.12
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.1 us,  8.4 sy,  0.0 ni, 38.2 id, 12.7 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2988.0 free,    703.5 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3215.9 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 357.0   0.0   6:57.52 ema-join-+
+
+top - 20:38:16 up  7:22,  0 users,  load average: 5.47, 2.30, 1.15
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.1 us,  8.1 sy,  0.0 ni, 38.5 id, 12.5 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   2976.3 free,    715.2 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3204.2 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 356.0   0.0   7:01.08 ema-join-+
+
+top - 20:38:17 up  7:22,  0 users,  load average: 5.47, 2.30, 1.15
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.3 us,  8.3 sy,  0.0 ni, 38.4 id, 12.4 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   2976.3 free,    715.2 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3204.2 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 351.5   0.0   7:04.63 ema-join-+
+
+top - 20:38:18 up  7:22,  0 users,  load average: 5.47, 2.30, 1.15
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 37.9 us,  8.4 sy,  0.0 ni, 39.8 id, 13.3 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   2976.3 free,    715.2 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3204.2 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 342.0   0.0   7:08.05 ema-join-+
+
+top - 20:38:19 up  7:22,  0 users,  load average: 5.47, 2.30, 1.15
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.2 us,  8.2 sy,  0.0 ni, 38.4 id, 12.6 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2974.6 free,    716.8 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3202.6 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 358.0   0.0   7:11.63 ema-join-+
+
+top - 20:38:20 up  7:22,  0 users,  load average: 5.47, 2.30, 1.15
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.1 us,  8.9 sy,  0.0 ni, 37.8 id, 12.4 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   2974.6 free,    716.8 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3202.6 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 358.0   0.0   7:15.21 ema-join-+
+
+top - 20:38:21 up  7:22,  0 users,  load average: 5.59, 2.38, 1.18
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 37.9 us,  8.6 sy,  0.0 ni, 39.7 id, 13.2 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2974.6 free,    716.8 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3202.6 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 344.0   0.0   7:18.65 ema-join-+
+
+top - 20:38:22 up  7:22,  0 users,  load average: 5.59, 2.38, 1.18
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.1 us,  8.6 sy,  0.0 ni, 38.1 id, 12.6 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   2974.6 free,    716.9 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3202.5 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 358.0   0.0   7:22.23 ema-join-+
+
+top - 20:38:23 up  7:22,  0 users,  load average: 5.59, 2.38, 1.18
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.0 us,  7.9 sy,  0.0 ni, 38.4 id, 13.0 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2974.6 free,    716.9 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3202.5 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 349.5   0.0   7:25.76 ema-join-+
+
+top - 20:38:24 up  7:22,  0 users,  load average: 5.59, 2.38, 1.18
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.0 us,  8.3 sy,  0.0 ni, 38.4 id, 12.6 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2974.6 free,    716.9 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3202.5 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 360.0   0.0   7:29.36 ema-join-+
+
+top - 20:38:25 up  7:22,  0 users,  load average: 5.59, 2.38, 1.18
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.1 us,  8.5 sy,  0.0 ni, 38.3 id, 12.5 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2977.5 free,    714.0 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3205.4 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 354.0   0.0   7:32.90 ema-join-+
+
+top - 20:38:26 up  7:22,  0 users,  load average: 5.78, 2.47, 1.22
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.8 us,  8.7 sy,  0.0 ni, 37.6 id, 12.3 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   2977.5 free,    714.0 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3205.4 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 362.0   0.0   7:36.52 ema-join-+
+
+top - 20:38:27 up  7:22,  0 users,  load average: 5.78, 2.47, 1.22
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 37.8 us,  7.8 sy,  0.0 ni, 40.9 id, 12.6 wa,  0.0 hi,  0.9 si,  0.0 st 
+MiB Mem :   3919.4 total,   2977.5 free,    714.0 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3205.4 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 336.0   0.0   7:39.88 ema-join-+
+
+top - 20:38:28 up  7:22,  0 users,  load average: 5.78, 2.47, 1.22
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.6 us,  8.1 sy,  0.0 ni, 39.2 id, 12.6 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   2975.8 free,    715.7 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3203.8 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 354.0   0.0   7:43.42 ema-join-+
+
+top - 20:38:29 up  7:22,  0 users,  load average: 5.78, 2.47, 1.22
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.4 us,  8.9 sy,  0.0 ni, 37.8 id, 12.3 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2975.8 free,    715.7 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3203.8 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 358.0   0.0   7:47.00 ema-join-+
+
+top - 20:38:30 up  7:22,  0 users,  load average: 5.78, 2.47, 1.22
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.8 us,  8.8 sy,  0.0 ni, 37.7 id, 13.1 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   2975.8 free,    715.7 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3203.8 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 355.0   0.0   7:50.55 ema-join-+
+
+top - 20:38:31 up  7:22,  0 users,  load average: 5.72, 2.51, 1.24
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.6 us,  8.6 sy,  0.0 ni, 38.0 id, 12.2 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2975.4 free,    716.1 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3203.3 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 355.4   0.0   7:54.14 ema-join-+
+
+top - 20:38:32 up  7:22,  0 users,  load average: 5.72, 2.51, 1.24
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.4 us,  8.3 sy,  0.0 ni, 38.0 id, 12.4 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   2975.4 free,    716.1 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3203.3 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 357.0   0.0   7:57.71 ema-join-+
+
+top - 20:38:33 up  7:22,  0 users,  load average: 5.72, 2.51, 1.24
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.8 us,  8.1 sy,  0.0 ni, 38.1 id, 12.5 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   2975.4 free,    716.1 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3203.3 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 356.0   0.0   8:01.27 ema-join-+
+
+top - 20:38:34 up  7:22,  0 users,  load average: 5.72, 2.51, 1.24
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.7 us,  8.7 sy,  0.0 ni, 38.7 id, 12.4 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   2978.7 free,    712.7 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3206.7 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 356.0   0.0   8:04.83 ema-join-+
+
+top - 20:38:35 up  7:22,  0 users,  load average: 5.72, 2.51, 1.24
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.2 us,  8.1 sy,  0.0 ni, 38.6 id, 12.6 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   2978.7 free,    712.7 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3206.7 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 356.0   0.0   8:08.39 ema-join-+
+
+top - 20:38:36 up  7:23,  0 users,  load average: 5.74, 2.57, 1.27
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.9 us,  8.8 sy,  0.0 ni, 38.6 id, 12.1 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   2978.7 free,    712.7 used,    366.7 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3206.7 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 355.0   0.0   8:11.94 ema-join-+
+
+top - 20:38:37 up  7:23,  0 users,  load average: 5.74, 2.57, 1.27
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.3 us,  8.0 sy,  0.0 ni, 38.3 id, 12.7 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2976.6 free,    714.8 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3204.6 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 357.0   0.0   8:15.51 ema-join-+
+
+top - 20:38:38 up  7:23,  0 users,  load average: 5.74, 2.57, 1.27
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 38.6 us,  9.4 sy,  0.0 ni, 38.5 id, 12.6 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   2976.6 free,    714.8 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3204.6 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 350.5   0.0   8:19.05 ema-join-+
+
+top - 20:38:39 up  7:23,  0 users,  load average: 5.74, 2.57, 1.27
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.4 us,  8.4 sy,  0.0 ni, 38.0 id, 12.5 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2976.6 free,    714.8 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3204.6 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 355.0   0.0   8:22.60 ema-join-+
+
+top - 20:38:40 up  7:23,  0 users,  load average: 5.74, 2.57, 1.27
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.6 us,  9.0 sy,  0.0 ni, 37.6 id, 12.2 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2975.9 free,    715.5 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3203.9 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 364.0   0.0   8:26.24 ema-join-+
+
+top - 20:38:41 up  7:23,  0 users,  load average: 5.76, 2.63, 1.29
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.8 us,  8.5 sy,  0.0 ni, 38.3 id, 12.8 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2975.9 free,    715.5 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3203.9 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 354.0   0.0   8:29.78 ema-join-+
+
+top - 20:38:42 up  7:23,  0 users,  load average: 5.76, 2.63, 1.29
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 35.8 us,  7.4 sy,  0.0 ni, 42.3 id, 13.4 wa,  0.0 hi,  1.1 si,  0.0 st 
+MiB Mem :   3919.4 total,   2975.9 free,    715.5 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3203.9 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 314.0   0.0   8:32.92 ema-join-+
+
+top - 20:38:43 up  7:23,  0 users,  load average: 5.76, 2.63, 1.29
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.6 us,  8.4 sy,  0.0 ni, 38.5 id, 12.8 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2983.4 free,    708.0 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3211.4 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 354.0   0.0   8:36.46 ema-join-+
+
+top - 20:38:44 up  7:23,  0 users,  load average: 5.76, 2.63, 1.29
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.8 us,  8.6 sy,  0.0 ni, 38.4 id, 12.7 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   2983.4 free,    708.0 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3211.4 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 353.0   0.0   8:39.99 ema-join-+
+
+top - 20:38:45 up  7:23,  0 users,  load average: 5.76, 2.63, 1.29
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.0 us,  8.5 sy,  0.0 ni, 38.4 id, 12.5 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2983.4 free,    708.0 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3211.4 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 351.5   0.0   8:43.54 ema-join-+
+
+top - 20:38:46 up  7:23,  0 users,  load average: 5.54, 2.63, 1.30
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.2 us,  8.9 sy,  0.0 ni, 38.7 id, 12.4 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   2979.3 free,    712.1 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3207.3 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 355.0   0.0   8:47.09 ema-join-+
+
+top - 20:38:47 up  7:23,  0 users,  load average: 5.54, 2.63, 1.30
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.6 us,  8.1 sy,  0.0 ni, 38.2 id, 12.5 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2979.3 free,    712.1 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3207.3 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 355.0   0.0   8:50.64 ema-join-+
+
+top - 20:38:48 up  7:23,  0 users,  load average: 5.54, 2.63, 1.30
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.4 us,  8.5 sy,  0.0 ni, 37.9 id, 12.4 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   2979.3 free,    712.1 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3207.3 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 361.0   0.0   8:54.25 ema-join-+
+
+top - 20:38:49 up  7:23,  0 users,  load average: 5.54, 2.63, 1.30
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.2 us,  9.3 sy,  0.0 ni, 37.5 id, 12.3 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2976.5 free,    714.9 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3204.5 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 362.0   0.0   8:57.87 ema-join-+
+
+top - 20:38:50 up  7:23,  0 users,  load average: 5.54, 2.63, 1.30
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.3 us,  8.9 sy,  0.0 ni, 38.3 id, 12.8 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2976.5 free,    714.9 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3204.5 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 354.0   0.0   9:01.41 ema-join-+
+
+top - 20:38:51 up  7:23,  0 users,  load average: 5.34, 2.64, 1.31
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.6 us,  8.5 sy,  0.0 ni, 38.4 id, 12.8 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2976.5 free,    714.9 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3204.5 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 351.5   0.0   9:04.96 ema-join-+
+
+top - 20:38:52 up  7:23,  0 users,  load average: 5.34, 2.64, 1.31
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.5 us,  8.2 sy,  0.0 ni, 38.0 id, 12.6 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2977.8 free,    713.6 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3205.8 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 356.0   0.0   9:08.52 ema-join-+
+
+top - 20:38:53 up  7:23,  0 users,  load average: 5.34, 2.64, 1.31
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 37.4 us,  8.9 sy,  0.0 ni, 40.5 id, 12.6 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   2977.8 free,    713.6 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3205.8 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 343.0   0.0   9:11.95 ema-join-+
+
+top - 20:38:54 up  7:23,  0 users,  load average: 5.34, 2.64, 1.31
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.8 us,  8.5 sy,  0.0 ni, 38.6 id, 12.5 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2977.8 free,    713.6 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3205.8 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 357.0   0.0   9:15.52 ema-join-+
+
+top - 20:38:55 up  7:23,  0 users,  load average: 5.34, 2.64, 1.31
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.5 us,  8.7 sy,  0.0 ni, 37.7 id, 12.4 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   2978.7 free,    712.8 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3206.7 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 363.0   0.0   9:19.15 ema-join-+
+
+top - 20:38:56 up  7:23,  0 users,  load average: 5.39, 2.70, 1.34
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 41.2 us,  8.9 sy,  0.0 ni, 37.2 id, 12.1 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   2978.7 free,    712.8 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3206.7 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 362.0   0.0   9:22.77 ema-join-+
+
+top - 20:38:57 up  7:23,  0 users,  load average: 5.39, 2.70, 1.34
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 36.3 us,  7.7 sy,  0.0 ni, 43.1 id, 12.2 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2978.7 free,    712.8 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3206.7 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 324.0   0.0   9:26.01 ema-join-+
+
+top - 20:38:58 up  7:23,  0 users,  load average: 5.39, 2.70, 1.34
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.5 us,  9.1 sy,  0.0 ni, 37.4 id, 12.2 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   2977.7 free,    713.7 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3205.7 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 358.0   0.0   9:29.59 ema-join-+
+
+top - 20:38:59 up  7:23,  0 users,  load average: 5.39, 2.70, 1.34
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.9 us,  9.3 sy,  0.0 ni, 37.8 id, 12.1 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   2977.7 free,    713.7 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3205.7 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 354.5   0.0   9:33.17 ema-join-+
+
+top - 20:39:00 up  7:23,  0 users,  load average: 5.39, 2.70, 1.34
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.7 us,  9.2 sy,  0.0 ni, 37.9 id, 12.6 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2977.7 free,    713.7 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3205.7 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 356.0   0.0   9:36.73 ema-join-+
+
+top - 20:39:01 up  7:23,  0 users,  load average: 5.36, 2.74, 1.36
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.3 us,  8.8 sy,  0.0 ni, 38.0 id, 12.4 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   2982.4 free,    709.1 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3210.3 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 356.0   0.0   9:40.29 ema-join-+
+
+top - 20:39:02 up  7:23,  0 users,  load average: 5.36, 2.74, 1.36
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.6 us,  8.7 sy,  0.0 ni, 38.5 id, 12.5 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2982.4 free,    709.1 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3210.3 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 355.0   0.0   9:43.84 ema-join-+
+
+top - 20:39:03 up  7:23,  0 users,  load average: 5.36, 2.74, 1.36
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.3 us,  9.0 sy,  0.0 ni, 38.5 id, 12.6 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2982.4 free,    709.1 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3210.3 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 355.0   0.0   9:47.39 ema-join-+
+
+top - 20:39:04 up  7:23,  0 users,  load average: 5.36, 2.74, 1.36
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.5 us,  8.3 sy,  0.0 ni, 38.1 id, 12.3 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2986.0 free,    705.4 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3214.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 357.0   0.0   9:50.96 ema-join-+
+
+top - 20:39:05 up  7:23,  0 users,  load average: 5.36, 2.74, 1.36
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.5 us,  8.9 sy,  0.0 ni, 38.0 id, 12.8 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   2986.0 free,    705.4 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3214.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 352.5   0.0   9:54.52 ema-join-+
+
+top - 20:39:06 up  7:23,  0 users,  load average: 5.41, 2.79, 1.38
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.1 us,  8.3 sy,  0.0 ni, 38.7 id, 12.4 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   2986.0 free,    705.4 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3214.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 353.0   0.0   9:58.05 ema-join-+
+
+top - 20:39:07 up  7:23,  0 users,  load average: 5.41, 2.79, 1.38
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.8 us,  8.5 sy,  0.0 ni, 38.5 id, 12.3 wa,  0.0 hi,  0.9 si,  0.0 st 
+MiB Mem :   3919.4 total,   2983.9 free,    707.5 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3211.9 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 359.0   0.0  10:01.64 ema-join-+
+
+top - 20:39:08 up  7:23,  0 users,  load average: 5.41, 2.79, 1.38
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.5 us,  8.3 sy,  0.0 ni, 38.3 id, 12.2 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2983.9 free,    707.5 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3211.9 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 357.0   0.0  10:05.21 ema-join-+
+
+top - 20:39:09 up  7:23,  0 users,  load average: 5.41, 2.79, 1.38
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.4 us, 10.0 sy,  0.0 ni, 37.4 id, 12.4 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   2983.9 free,    707.5 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3211.9 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 361.0   0.0  10:08.82 ema-join-+
+
+top - 20:39:10 up  7:23,  0 users,  load average: 5.41, 2.79, 1.38
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.8 us,  8.7 sy,  0.0 ni, 38.2 id, 12.5 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   2982.6 free,    708.9 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3210.6 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 354.0   0.0  10:12.36 ema-join-+
+
+top - 20:39:11 up  7:23,  0 users,  load average: 5.54, 2.86, 1.41
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.9 us,  8.5 sy,  0.0 ni, 38.7 id, 12.3 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   2982.6 free,    708.9 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3210.6 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 356.0   0.0  10:15.92 ema-join-+
+
+top - 20:39:12 up  7:23,  0 users,  load average: 5.54, 2.86, 1.41
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 37.7 us,  7.5 sy,  0.0 ni, 41.4 id, 12.4 wa,  0.0 hi,  0.9 si,  0.0 st 
+MiB Mem :   3919.4 total,   2982.6 free,    708.9 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3210.6 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 328.7   0.0  10:19.24 ema-join-+
+
+top - 20:39:13 up  7:23,  0 users,  load average: 5.54, 2.86, 1.41
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.3 us,  8.4 sy,  0.0 ni, 38.0 id, 12.5 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   2997.0 free,    694.4 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3225.1 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 352.0   0.0  10:22.76 ema-join-+
+
+top - 20:39:14 up  7:23,  0 users,  load average: 5.54, 2.86, 1.41
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.8 us,  8.6 sy,  0.0 ni, 37.5 id, 12.2 wa,  0.0 hi,  0.9 si,  0.0 st 
+MiB Mem :   3919.4 total,   2997.0 free,    694.4 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3225.1 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 347.0   0.0  10:26.23 ema-join-+
+
+top - 20:39:15 up  7:23,  0 users,  load average: 5.54, 2.86, 1.41
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.1 us,  8.7 sy,  0.0 ni, 38.3 id, 12.2 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2997.0 free,    694.4 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3225.1 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 358.0   0.0  10:29.81 ema-join-+
+
+top - 20:39:16 up  7:23,  0 users,  load average: 5.58, 2.91, 1.44
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.5 us,  8.3 sy,  0.0 ni, 38.7 id, 12.6 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   2986.3 free,    705.1 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3214.3 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 357.0   0.0  10:33.38 ema-join-+
+
+top - 20:39:17 up  7:23,  0 users,  load average: 5.58, 2.91, 1.44
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 38.9 us,  7.7 sy,  0.0 ni, 40.2 id, 12.7 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   2986.3 free,    705.1 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3214.3 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 339.6   0.0  10:36.81 ema-join-+
+
+top - 20:39:18 up  7:23,  0 users,  load average: 5.58, 2.91, 1.44
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 41.1 us,  8.7 sy,  0.0 ni, 37.2 id, 12.3 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   2986.3 free,    705.1 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3214.3 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 364.0   0.0  10:40.45 ema-join-+
+
+top - 20:39:19 up  7:23,  0 users,  load average: 5.58, 2.91, 1.44
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.9 us,  8.3 sy,  0.0 ni, 38.9 id, 12.2 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2984.8 free,    706.6 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3212.8 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 352.0   0.0  10:43.97 ema-join-+
+
+top - 20:39:20 up  7:23,  0 users,  load average: 5.58, 2.91, 1.44
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.2 us,  9.2 sy,  0.0 ni, 38.5 id, 12.4 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2984.8 free,    706.6 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3212.8 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 357.0   0.0  10:47.54 ema-join-+
+
+top - 20:39:21 up  7:23,  0 users,  load average: 5.77, 3.00, 1.47
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 41.2 us,  8.5 sy,  0.0 ni, 37.2 id, 12.2 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   2984.8 free,    706.6 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3212.8 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 366.0   0.0  10:51.20 ema-join-+
+
+top - 20:39:22 up  7:23,  0 users,  load average: 5.77, 3.00, 1.47
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.3 us,  7.7 sy,  0.0 ni, 38.8 id, 12.6 wa,  0.0 hi,  0.5 si,  0.0 st 
+MiB Mem :   3919.4 total,   2978.9 free,    712.5 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3207.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 353.0   0.0  10:54.73 ema-join-+
+
+top - 20:39:23 up  7:23,  0 users,  load average: 5.77, 3.00, 1.47
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 38.9 us,  8.9 sy,  0.0 ni, 38.7 id, 12.9 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2978.9 free,    712.5 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3207.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 354.0   0.0  10:58.27 ema-join-+
+
+top - 20:39:24 up  7:23,  0 users,  load average: 5.77, 3.00, 1.47
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.5 us,  7.8 sy,  0.0 ni, 38.6 id, 12.5 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2978.9 free,    712.5 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3207.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 354.0   0.0  11:01.81 ema-join-+
+
+top - 20:39:25 up  7:23,  0 users,  load average: 5.77, 3.00, 1.47
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 39.6 us,  8.0 sy,  0.0 ni, 39.0 id, 12.7 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2981.0 free,    710.4 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3209.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 348.5   0.0  11:05.33 ema-join-+
+
+top - 20:39:26 up  7:23,  0 users,  load average: 5.79, 3.05, 1.50
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 40.2 us,  8.4 sy,  0.0 ni, 38.0 id, 12.8 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2981.0 free,    710.4 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3209.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 357.0   0.0  11:08.90 ema-join-+
+
+top - 20:39:27 up  7:23,  0 users,  load average: 5.79, 3.05, 1.50
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 36.8 us,  7.8 sy,  0.0 ni, 42.4 id, 12.3 wa,  0.0 hi,  0.7 si,  0.0 st 
+MiB Mem :   3919.4 total,   2981.0 free,    710.4 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3209.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 327.0   0.0  11:12.17 ema-join-+
+
+top - 20:39:28 up  7:23,  0 users,  load average: 5.79, 3.05, 1.50
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 33.0 us,  7.2 sy,  0.0 ni, 43.8 id, 15.2 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   2979.5 free,    711.8 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3207.6 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 304.0   0.0  11:15.21 ema-join-+
+
+top - 20:39:29 up  7:23,  0 users,  load average: 5.79, 3.05, 1.50
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 34.4 us,  7.9 sy,  0.0 ni, 43.0 id, 13.9 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :   3919.4 total,   2979.5 free,    711.8 used,    366.8 buff/cache     
+MiB Swap:   1024.0 total,   1024.0 free,      0.0 used.   3207.6 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  297 root      20   0  592600   1064   1064 S 313.0   0.0  11:18.34 ema-join-+

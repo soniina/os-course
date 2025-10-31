@@ -1,0 +1,1167 @@
+> pidstat -u -w -p <pids>
+
+Linux 6.10.14-linuxkit (39a07a312d04) 	11/04/25 	_aarch64_	(8 CPU)
+
+20:36:16      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:17        0       297  275.00   40.00    0.00    0.00  315.00     0  ema-join-nl-thr
+
+20:36:16      UID       PID   cswch/s nvcswch/s  Command
+20:36:17        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:17      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:18        0       297  283.00   43.00    0.00    0.00  326.00     0  ema-join-nl-thr
+
+20:36:17      UID       PID   cswch/s nvcswch/s  Command
+20:36:18        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:18      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:19        0       297  298.00   40.00    0.00    0.00  338.00     0  ema-join-nl-thr
+
+20:36:18      UID       PID   cswch/s nvcswch/s  Command
+20:36:19        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:19      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:20        0       297  299.00   39.00    0.00    0.00  338.00     0  ema-join-nl-thr
+
+20:36:19      UID       PID   cswch/s nvcswch/s  Command
+20:36:20        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:20      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:21        0       297  301.00   46.00    0.00    0.00  347.00     0  ema-join-nl-thr
+
+20:36:20      UID       PID   cswch/s nvcswch/s  Command
+20:36:21        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:21      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:22        0       297  308.00   48.00    0.00    0.00  356.00     0  ema-join-nl-thr
+
+20:36:21      UID       PID   cswch/s nvcswch/s  Command
+20:36:22        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:22      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:23        0       297  301.00   43.00    0.00    0.00  344.00     0  ema-join-nl-thr
+
+20:36:22      UID       PID   cswch/s nvcswch/s  Command
+20:36:23        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:23      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:24        0       297  293.00   56.00    0.00    0.00  349.00     0  ema-join-nl-thr
+
+20:36:23      UID       PID   cswch/s nvcswch/s  Command
+20:36:24        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:24      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:25        0       297  302.00   42.00    0.00    0.00  344.00     0  ema-join-nl-thr
+
+20:36:24      UID       PID   cswch/s nvcswch/s  Command
+20:36:25        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:25      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:26        0       297  304.00   44.00    0.00    0.00  348.00     0  ema-join-nl-thr
+
+20:36:25      UID       PID   cswch/s nvcswch/s  Command
+20:36:26        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:26      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:27        0       297  283.00   40.00    0.00    0.00  323.00     0  ema-join-nl-thr
+
+20:36:26      UID       PID   cswch/s nvcswch/s  Command
+20:36:27        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:27      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:28        0       297  301.98   43.56    0.00    0.00  345.54     0  ema-join-nl-thr
+
+20:36:27      UID       PID   cswch/s nvcswch/s  Command
+20:36:28        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:28      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:29        0       297  300.00   43.00    0.00    0.00  343.00     0  ema-join-nl-thr
+
+20:36:28      UID       PID   cswch/s nvcswch/s  Command
+20:36:29        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:29      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:30        0       297  301.00   43.00    0.00    0.00  344.00     0  ema-join-nl-thr
+
+20:36:29      UID       PID   cswch/s nvcswch/s  Command
+20:36:30        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:30      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:31        0       297  312.00   42.00    0.00    0.00  354.00     0  ema-join-nl-thr
+
+20:36:30      UID       PID   cswch/s nvcswch/s  Command
+20:36:31        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:31      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:32        0       297  305.00   41.00    0.00    0.00  346.00     0  ema-join-nl-thr
+
+20:36:31      UID       PID   cswch/s nvcswch/s  Command
+20:36:32        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:32      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:33        0       297  308.00   38.00    0.00    0.00  346.00     0  ema-join-nl-thr
+
+20:36:32      UID       PID   cswch/s nvcswch/s  Command
+20:36:33        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:33      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:34        0       297  305.00   39.00    0.00    0.00  344.00     0  ema-join-nl-thr
+
+20:36:33      UID       PID   cswch/s nvcswch/s  Command
+20:36:34        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:34      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:35        0       297  304.00   45.00    0.00    0.00  349.00     0  ema-join-nl-thr
+
+20:36:34      UID       PID   cswch/s nvcswch/s  Command
+20:36:35        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:35      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:36        0       297  305.00   43.00    0.00    0.00  348.00     0  ema-join-nl-thr
+
+20:36:35      UID       PID   cswch/s nvcswch/s  Command
+20:36:36        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:36      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:37        0       297  305.00   41.00    0.00    0.00  346.00     0  ema-join-nl-thr
+
+20:36:36      UID       PID   cswch/s nvcswch/s  Command
+20:36:37        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:37      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:38        0       297  301.98   39.60    0.00    0.00  341.58     0  ema-join-nl-thr
+
+20:36:37      UID       PID   cswch/s nvcswch/s  Command
+20:36:38        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:38      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:39        0       297  307.00   50.00    0.00    0.00  357.00     0  ema-join-nl-thr
+
+20:36:38      UID       PID   cswch/s nvcswch/s  Command
+20:36:39        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:39      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:40        0       297  305.00   43.00    0.00    0.00  348.00     0  ema-join-nl-thr
+
+20:36:39      UID       PID   cswch/s nvcswch/s  Command
+20:36:40        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:40      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:41        0       297  306.00   40.00    0.00    0.00  346.00     0  ema-join-nl-thr
+
+20:36:40      UID       PID   cswch/s nvcswch/s  Command
+20:36:41        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:41      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:42        0       297  274.00   37.00    0.00    0.00  311.00     0  ema-join-nl-thr
+
+20:36:41      UID       PID   cswch/s nvcswch/s  Command
+20:36:42        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:42      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:43        0       297  302.00   41.00    0.00    0.00  343.00     0  ema-join-nl-thr
+
+20:36:42      UID       PID   cswch/s nvcswch/s  Command
+20:36:43        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:43      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:44        0       297  306.00   49.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:36:43      UID       PID   cswch/s nvcswch/s  Command
+20:36:44        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:44      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:45        0       297  308.00   48.00    0.00    0.00  356.00     0  ema-join-nl-thr
+
+20:36:44      UID       PID   cswch/s nvcswch/s  Command
+20:36:45        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:45      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:46        0       297  300.00   47.00    0.00    0.00  347.00     0  ema-join-nl-thr
+
+20:36:45      UID       PID   cswch/s nvcswch/s  Command
+20:36:46        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:46      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:47        0       297  305.00   45.00    0.00    0.00  350.00     0  ema-join-nl-thr
+
+20:36:46      UID       PID   cswch/s nvcswch/s  Command
+20:36:47        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:47      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:48        0       297  302.97   38.61    0.00    0.00  341.58     0  ema-join-nl-thr
+
+20:36:47      UID       PID   cswch/s nvcswch/s  Command
+20:36:48        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:48      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:49        0       297  290.00   42.00    0.00    0.00  332.00     0  ema-join-nl-thr
+
+20:36:48      UID       PID   cswch/s nvcswch/s  Command
+20:36:49        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:49      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:50        0       297  291.00   42.00    0.00    0.00  333.00     0  ema-join-nl-thr
+
+20:36:49      UID       PID   cswch/s nvcswch/s  Command
+20:36:50        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:50      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:51        0       297  274.00   40.00    0.00    0.00  314.00     0  ema-join-nl-thr
+
+20:36:50      UID       PID   cswch/s nvcswch/s  Command
+20:36:51        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:51      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:52        0       297  300.00   47.00    0.00    0.00  347.00     0  ema-join-nl-thr
+
+20:36:51      UID       PID   cswch/s nvcswch/s  Command
+20:36:52        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:52      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:53        0       297  312.00   41.00    0.00    0.00  353.00     0  ema-join-nl-thr
+
+20:36:52      UID       PID   cswch/s nvcswch/s  Command
+20:36:53        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:53      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:54        0       297  307.00   47.00    0.00    0.00  354.00     0  ema-join-nl-thr
+
+20:36:53      UID       PID   cswch/s nvcswch/s  Command
+20:36:54        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:54      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:55        0       297  308.00   42.00    0.00    0.00  350.00     0  ema-join-nl-thr
+
+20:36:54      UID       PID   cswch/s nvcswch/s  Command
+20:36:55        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:55      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:56        0       297  313.00   41.00    0.00    0.00  354.00     0  ema-join-nl-thr
+
+20:36:55      UID       PID   cswch/s nvcswch/s  Command
+20:36:56        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:56      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:57        0       297  295.05   42.57    0.00    0.00  337.62     0  ema-join-nl-thr
+
+20:36:56      UID       PID   cswch/s nvcswch/s  Command
+20:36:57        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:57      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:58        0       297  315.00   42.00    0.00    0.00  357.00     0  ema-join-nl-thr
+
+20:36:57      UID       PID   cswch/s nvcswch/s  Command
+20:36:58        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:58      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:36:59        0       297  311.00   44.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:36:58      UID       PID   cswch/s nvcswch/s  Command
+20:36:59        0       297      0.00      0.00  ema-join-nl-thr
+
+20:36:59      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:00        0       297  311.00   44.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:36:59      UID       PID   cswch/s nvcswch/s  Command
+20:37:00        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:00      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:01        0       297  310.00   43.00    0.00    0.00  353.00     0  ema-join-nl-thr
+
+20:37:00      UID       PID   cswch/s nvcswch/s  Command
+20:37:01        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:01      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:02        0       297  311.00   43.00    0.00    0.00  354.00     0  ema-join-nl-thr
+
+20:37:01      UID       PID   cswch/s nvcswch/s  Command
+20:37:02        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:02      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:03        0       297  310.00   43.00    0.00    0.00  353.00     0  ema-join-nl-thr
+
+20:37:02      UID       PID   cswch/s nvcswch/s  Command
+20:37:03        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:03      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:04        0       297  300.00   45.00    0.00    0.00  345.00     0  ema-join-nl-thr
+
+20:37:03      UID       PID   cswch/s nvcswch/s  Command
+20:37:04        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:04      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:05        0       297  312.00   41.00    0.00    0.00  353.00     0  ema-join-nl-thr
+
+20:37:04      UID       PID   cswch/s nvcswch/s  Command
+20:37:05        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:05      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:06        0       297  311.00   39.00    0.00    0.00  350.00     0  ema-join-nl-thr
+
+20:37:05      UID       PID   cswch/s nvcswch/s  Command
+20:37:06        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:06      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:07        0       297  296.04   44.55    0.00    0.00  340.59     0  ema-join-nl-thr
+
+20:37:06      UID       PID   cswch/s nvcswch/s  Command
+20:37:07        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:07      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:08        0       297  307.00   47.00    0.00    0.00  354.00     0  ema-join-nl-thr
+
+20:37:07      UID       PID   cswch/s nvcswch/s  Command
+20:37:08        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:08      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:09        0       297  310.00   45.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:37:08      UID       PID   cswch/s nvcswch/s  Command
+20:37:09        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:09      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:10        0       297  309.00   43.00    0.00    0.00  352.00     0  ema-join-nl-thr
+
+20:37:09      UID       PID   cswch/s nvcswch/s  Command
+20:37:10        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:10      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:11        0       297  313.00   42.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:37:10      UID       PID   cswch/s nvcswch/s  Command
+20:37:11        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:11      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:12        0       297  300.00   38.00    0.00    0.00  338.00     0  ema-join-nl-thr
+
+20:37:11      UID       PID   cswch/s nvcswch/s  Command
+20:37:12        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:12      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:13        0       297  310.00   47.00    0.00    0.00  357.00     0  ema-join-nl-thr
+
+20:37:12      UID       PID   cswch/s nvcswch/s  Command
+20:37:13        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:13      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:14        0       297  297.00   48.00    0.00    0.00  345.00     0  ema-join-nl-thr
+
+20:37:13      UID       PID   cswch/s nvcswch/s  Command
+20:37:14        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:14      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:15        0       297  302.00   54.00    0.00    0.00  356.00     0  ema-join-nl-thr
+
+20:37:14      UID       PID   cswch/s nvcswch/s  Command
+20:37:15        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:15      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:16        0       297  305.00   42.00    0.00    0.00  347.00     0  ema-join-nl-thr
+
+20:37:15      UID       PID   cswch/s nvcswch/s  Command
+20:37:16        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:16      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:17        0       297  308.91   45.54    0.00    0.00  354.46     0  ema-join-nl-thr
+
+20:37:16      UID       PID   cswch/s nvcswch/s  Command
+20:37:17        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:17      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:18        0       297  312.00   43.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:37:17      UID       PID   cswch/s nvcswch/s  Command
+20:37:18        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:18      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:19        0       297  310.00   47.00    0.00    0.00  357.00     0  ema-join-nl-thr
+
+20:37:18      UID       PID   cswch/s nvcswch/s  Command
+20:37:19        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:19      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:20        0       297  308.00   47.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:37:19      UID       PID   cswch/s nvcswch/s  Command
+20:37:20        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:20      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:21        0       297  307.00   46.00    0.00    0.00  353.00     0  ema-join-nl-thr
+
+20:37:20      UID       PID   cswch/s nvcswch/s  Command
+20:37:21        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:21      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:22        0       297  308.00   47.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:37:21      UID       PID   cswch/s nvcswch/s  Command
+20:37:22        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:22      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:23        0       297  316.00   38.00    0.00    0.00  354.00     0  ema-join-nl-thr
+
+20:37:22      UID       PID   cswch/s nvcswch/s  Command
+20:37:23        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:23      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:24        0       297  312.00   45.00    0.00    0.00  357.00     0  ema-join-nl-thr
+
+20:37:23      UID       PID   cswch/s nvcswch/s  Command
+20:37:24        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:24      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:25        0       297  308.00   47.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:37:24      UID       PID   cswch/s nvcswch/s  Command
+20:37:25        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:25      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:26        0       297  311.00   48.00    0.00    0.00  359.00     0  ema-join-nl-thr
+
+20:37:25      UID       PID   cswch/s nvcswch/s  Command
+20:37:26        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:26      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:27        0       297  283.17   38.61    0.00    0.00  321.78     0  ema-join-nl-thr
+
+20:37:26      UID       PID   cswch/s nvcswch/s  Command
+20:37:27        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:27      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:28        0       297  310.00   43.00    0.00    0.00  353.00     0  ema-join-nl-thr
+
+20:37:27      UID       PID   cswch/s nvcswch/s  Command
+20:37:28        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:28      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:29        0       297  310.00   46.00    0.00    0.00  356.00     0  ema-join-nl-thr
+
+20:37:28      UID       PID   cswch/s nvcswch/s  Command
+20:37:29        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:29      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:30        0       297  313.00   45.00    0.00    0.00  358.00     0  ema-join-nl-thr
+
+20:37:29      UID       PID   cswch/s nvcswch/s  Command
+20:37:30        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:30      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:31        0       297  310.00   46.00    0.00    0.00  356.00     0  ema-join-nl-thr
+
+20:37:30      UID       PID   cswch/s nvcswch/s  Command
+20:37:31        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:31      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:32        0       297  311.00   44.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:37:31      UID       PID   cswch/s nvcswch/s  Command
+20:37:32        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:32      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:33        0       297  313.00   43.00    0.00    0.00  356.00     0  ema-join-nl-thr
+
+20:37:32      UID       PID   cswch/s nvcswch/s  Command
+20:37:33        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:33      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:34        0       297  308.00   46.00    0.00    0.00  354.00     0  ema-join-nl-thr
+
+20:37:33      UID       PID   cswch/s nvcswch/s  Command
+20:37:34        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:34      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:35        0       297  310.00   44.00    0.00    0.00  354.00     0  ema-join-nl-thr
+
+20:37:34      UID       PID   cswch/s nvcswch/s  Command
+20:37:35        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:35      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:36        0       297  313.00   44.00    0.00    0.00  357.00     0  ema-join-nl-thr
+
+20:37:35      UID       PID   cswch/s nvcswch/s  Command
+20:37:36        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:36      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:37        0       297  308.91   45.54    0.00    0.00  354.46     0  ema-join-nl-thr
+
+20:37:36      UID       PID   cswch/s nvcswch/s  Command
+20:37:37        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:37      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:38        0       297  306.00   49.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:37:37      UID       PID   cswch/s nvcswch/s  Command
+20:37:38        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:38      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:39        0       297  311.00   45.00    0.00    0.00  356.00     0  ema-join-nl-thr
+
+20:37:38      UID       PID   cswch/s nvcswch/s  Command
+20:37:39        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:39      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:40        0       297  309.00   48.00    0.00    0.00  357.00     0  ema-join-nl-thr
+
+20:37:39      UID       PID   cswch/s nvcswch/s  Command
+20:37:40        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:40      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:41        0       297  314.00   40.00    0.00    0.00  354.00     0  ema-join-nl-thr
+
+20:37:40      UID       PID   cswch/s nvcswch/s  Command
+20:37:41        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:41      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:42        0       297  291.00   36.00    0.00    0.00  327.00     0  ema-join-nl-thr
+
+20:37:41      UID       PID   cswch/s nvcswch/s  Command
+20:37:42        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:42      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:43        0       297  312.00   46.00    0.00    0.00  358.00     0  ema-join-nl-thr
+
+20:37:42      UID       PID   cswch/s nvcswch/s  Command
+20:37:43        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:43      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:44        0       297  308.00   47.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:37:43      UID       PID   cswch/s nvcswch/s  Command
+20:37:44        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:44      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:45        0       297  310.00   46.00    0.00    0.00  356.00     0  ema-join-nl-thr
+
+20:37:44      UID       PID   cswch/s nvcswch/s  Command
+20:37:45        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:45      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:46        0       297  313.00   43.00    0.00    0.00  356.00     0  ema-join-nl-thr
+
+20:37:45      UID       PID   cswch/s nvcswch/s  Command
+20:37:46        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:46      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:47        0       297  311.88   37.62    0.00    0.00  349.50     0  ema-join-nl-thr
+
+20:37:46      UID       PID   cswch/s nvcswch/s  Command
+20:37:47        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:47      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:48        0       297  311.00   42.00    0.00    0.00  353.00     0  ema-join-nl-thr
+
+20:37:47      UID       PID   cswch/s nvcswch/s  Command
+20:37:48        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:48      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:49        0       297  264.00   38.00    0.00    0.00  302.00     0  ema-join-nl-thr
+
+20:37:48      UID       PID   cswch/s nvcswch/s  Command
+20:37:49        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:49      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:50        0       297  313.00   43.00    0.00    0.00  356.00     0  ema-join-nl-thr
+
+20:37:49      UID       PID   cswch/s nvcswch/s  Command
+20:37:50        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:50      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:51        0       297  298.00   51.00    0.00    0.00  349.00     0  ema-join-nl-thr
+
+20:37:50      UID       PID   cswch/s nvcswch/s  Command
+20:37:51        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:51      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:52        0       297  307.00   48.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:37:51      UID       PID   cswch/s nvcswch/s  Command
+20:37:52        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:52      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:53        0       297  307.00   48.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:37:52      UID       PID   cswch/s nvcswch/s  Command
+20:37:53        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:53      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:54        0       297  312.00   45.00    0.00    0.00  357.00     0  ema-join-nl-thr
+
+20:37:53      UID       PID   cswch/s nvcswch/s  Command
+20:37:54        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:54      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:55        0       297  312.00   45.00    0.00    0.00  357.00     0  ema-join-nl-thr
+
+20:37:54      UID       PID   cswch/s nvcswch/s  Command
+20:37:55        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:55      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:56        0       297  312.00   45.00    0.00    0.00  357.00     0  ema-join-nl-thr
+
+20:37:55      UID       PID   cswch/s nvcswch/s  Command
+20:37:56        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:56      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:57        0       297  294.06   42.57    0.00    0.00  336.63     0  ema-join-nl-thr
+
+20:37:56      UID       PID   cswch/s nvcswch/s  Command
+20:37:57        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:57      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:58        0       297  319.00   43.00    0.00    0.00  362.00     0  ema-join-nl-thr
+
+20:37:57      UID       PID   cswch/s nvcswch/s  Command
+20:37:58        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:58      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:37:59        0       297  309.00   45.00    0.00    0.00  354.00     0  ema-join-nl-thr
+
+20:37:58      UID       PID   cswch/s nvcswch/s  Command
+20:37:59        0       297      0.00      0.00  ema-join-nl-thr
+
+20:37:59      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:00        0       297  317.00   40.00    0.00    0.00  357.00     0  ema-join-nl-thr
+
+20:37:59      UID       PID   cswch/s nvcswch/s  Command
+20:38:00        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:00      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:01        0       297  314.00   43.00    0.00    0.00  357.00     0  ema-join-nl-thr
+
+20:38:00      UID       PID   cswch/s nvcswch/s  Command
+20:38:01        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:01      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:02        0       297  315.00   40.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:38:01      UID       PID   cswch/s nvcswch/s  Command
+20:38:02        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:02      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:03        0       297  308.00   45.00    0.00    0.00  353.00     0  ema-join-nl-thr
+
+20:38:02      UID       PID   cswch/s nvcswch/s  Command
+20:38:03        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:03      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:04        0       297  314.00   41.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:38:03      UID       PID   cswch/s nvcswch/s  Command
+20:38:04        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:04      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:05        0       297  310.00   46.00    0.00    0.00  356.00     0  ema-join-nl-thr
+
+20:38:04      UID       PID   cswch/s nvcswch/s  Command
+20:38:05        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:05      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:06        0       297  311.00   43.00    0.00    0.00  354.00     0  ema-join-nl-thr
+
+20:38:05      UID       PID   cswch/s nvcswch/s  Command
+20:38:06        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:06      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:07        0       297  309.90   41.58    0.00    0.00  351.49     0  ema-join-nl-thr
+
+20:38:06      UID       PID   cswch/s nvcswch/s  Command
+20:38:07        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:07      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:08        0       297  311.00   44.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:38:07      UID       PID   cswch/s nvcswch/s  Command
+20:38:08        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:08      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:09        0       297  310.00   45.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:38:08      UID       PID   cswch/s nvcswch/s  Command
+20:38:09        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:09      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:10        0       297  311.00   45.00    0.00    0.00  356.00     0  ema-join-nl-thr
+
+20:38:09      UID       PID   cswch/s nvcswch/s  Command
+20:38:10        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:10      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:11        0       297  311.00   45.00    0.00    0.00  356.00     0  ema-join-nl-thr
+
+20:38:10      UID       PID   cswch/s nvcswch/s  Command
+20:38:11        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:11      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:12        0       297  290.00   35.00    0.00    0.00  325.00     0  ema-join-nl-thr
+
+20:38:11      UID       PID   cswch/s nvcswch/s  Command
+20:38:12        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:12      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:13        0       297  308.00   47.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:38:12      UID       PID   cswch/s nvcswch/s  Command
+20:38:13        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:13      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:14        0       297  305.00   41.00    0.00    0.00  346.00     0  ema-join-nl-thr
+
+20:38:13      UID       PID   cswch/s nvcswch/s  Command
+20:38:14        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:14      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:15        0       297  314.00   43.00    0.00    0.00  357.00     0  ema-join-nl-thr
+
+20:38:14      UID       PID   cswch/s nvcswch/s  Command
+20:38:15        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:15      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:16        0       297  313.00   44.00    0.00    0.00  357.00     0  ema-join-nl-thr
+
+20:38:15      UID       PID   cswch/s nvcswch/s  Command
+20:38:16        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:16      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:17        0       297  306.93   43.56    0.00    0.00  350.50     0  ema-join-nl-thr
+
+20:38:16      UID       PID   cswch/s nvcswch/s  Command
+20:38:17        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:17      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:18        0       297  297.06   47.06    0.00    0.00  344.12     0  ema-join-nl-thr
+
+20:38:17      UID       PID   cswch/s nvcswch/s  Command
+20:38:18        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:18      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:19        0       297  313.00   43.00    0.00    0.00  356.00     0  ema-join-nl-thr
+
+20:38:18      UID       PID   cswch/s nvcswch/s  Command
+20:38:19        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:19      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:20        0       297  311.00   45.00    0.00    0.00  356.00     0  ema-join-nl-thr
+
+20:38:19      UID       PID   cswch/s nvcswch/s  Command
+20:38:20        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:20      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:21        0       297  301.00   46.00    0.00    0.00  347.00     0  ema-join-nl-thr
+
+20:38:20      UID       PID   cswch/s nvcswch/s  Command
+20:38:21        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:21      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:22        0       297  311.00   44.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:38:21      UID       PID   cswch/s nvcswch/s  Command
+20:38:22        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:22      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:23        0       297  311.00   44.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:38:22      UID       PID   cswch/s nvcswch/s  Command
+20:38:23        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:23      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:24        0       297  313.00   45.00    0.00    0.00  358.00     0  ema-join-nl-thr
+
+20:38:23      UID       PID   cswch/s nvcswch/s  Command
+20:38:24        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:24      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:25        0       297  312.00   43.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:38:24      UID       PID   cswch/s nvcswch/s  Command
+20:38:25        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:25      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:26        0       297  314.00   45.00    0.00    0.00  359.00     0  ema-join-nl-thr
+
+20:38:25      UID       PID   cswch/s nvcswch/s  Command
+20:38:26        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:26      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:27        0       297  298.00   40.00    0.00    0.00  338.00     0  ema-join-nl-thr
+
+20:38:26      UID       PID   cswch/s nvcswch/s  Command
+20:38:27        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:27      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:28        0       297  309.90   41.58    0.00    0.00  351.49     0  ema-join-nl-thr
+
+20:38:27      UID       PID   cswch/s nvcswch/s  Command
+20:38:28        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:28      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:29        0       297  310.00   46.00    0.00    0.00  356.00     0  ema-join-nl-thr
+
+20:38:28      UID       PID   cswch/s nvcswch/s  Command
+20:38:29        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:29      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:30        0       297  311.00   41.00    0.00    0.00  352.00     0  ema-join-nl-thr
+
+20:38:29      UID       PID   cswch/s nvcswch/s  Command
+20:38:30        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:30      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:31        0       297  314.00   47.00    0.00    0.00  361.00     0  ema-join-nl-thr
+
+20:38:30      UID       PID   cswch/s nvcswch/s  Command
+20:38:31        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:31      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:32        0       297  315.00   43.00    0.00    0.00  358.00     0  ema-join-nl-thr
+
+20:38:31      UID       PID   cswch/s nvcswch/s  Command
+20:38:32        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:32      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:33        0       297  315.00   42.00    0.00    0.00  357.00     0  ema-join-nl-thr
+
+20:38:32      UID       PID   cswch/s nvcswch/s  Command
+20:38:33        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:33      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:34        0       297  312.00   44.00    0.00    0.00  356.00     0  ema-join-nl-thr
+
+20:38:33      UID       PID   cswch/s nvcswch/s  Command
+20:38:34        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:34      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:35        0       297  314.00   41.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:38:34      UID       PID   cswch/s nvcswch/s  Command
+20:38:35        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:35      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:36        0       297  309.00   47.00    0.00    0.00  356.00     0  ema-join-nl-thr
+
+20:38:35      UID       PID   cswch/s nvcswch/s  Command
+20:38:36        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:36      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:37        0       297  315.00   41.00    0.00    0.00  356.00     0  ema-join-nl-thr
+
+20:38:36      UID       PID   cswch/s nvcswch/s  Command
+20:38:37        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:37      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:38        0       297  303.96   41.58    0.00    0.00  345.54     0  ema-join-nl-thr
+
+20:38:37      UID       PID   cswch/s nvcswch/s  Command
+20:38:38        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:38      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:39        0       297  305.00   55.00    0.00    0.00  360.00     0  ema-join-nl-thr
+
+20:38:38      UID       PID   cswch/s nvcswch/s  Command
+20:38:39        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:39      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:40        0       297  320.00   44.00    0.00    0.00  364.00     0  ema-join-nl-thr
+
+20:38:39      UID       PID   cswch/s nvcswch/s  Command
+20:38:40        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:40      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:41        0       297  305.00   48.00    0.00    0.00  353.00     0  ema-join-nl-thr
+
+20:38:40      UID       PID   cswch/s nvcswch/s  Command
+20:38:41        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:41      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:42        0       297  277.00   37.00    0.00    0.00  314.00     0  ema-join-nl-thr
+
+20:38:41      UID       PID   cswch/s nvcswch/s  Command
+20:38:42        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:42      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:43        0       297  310.00   45.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:38:42      UID       PID   cswch/s nvcswch/s  Command
+20:38:43        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:43      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:44        0       297  307.00   45.00    0.00    0.00  352.00     0  ema-join-nl-thr
+
+20:38:43      UID       PID   cswch/s nvcswch/s  Command
+20:38:44        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:44      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:45        0       297  314.00   41.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:38:44      UID       PID   cswch/s nvcswch/s  Command
+20:38:45        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:45      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:46        0       297  303.00   52.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:38:45      UID       PID   cswch/s nvcswch/s  Command
+20:38:46        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:46      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:47        0       297  316.00   40.00    0.00    0.00  356.00     0  ema-join-nl-thr
+
+20:38:46      UID       PID   cswch/s nvcswch/s  Command
+20:38:47        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:47      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:48        0       297  308.91   39.60    0.00    0.00  348.51     0  ema-join-nl-thr
+
+20:38:47      UID       PID   cswch/s nvcswch/s  Command
+20:38:48        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:48      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:49        0       297  317.00   54.00    0.00    0.00  371.00     0  ema-join-nl-thr
+
+20:38:48      UID       PID   cswch/s nvcswch/s  Command
+20:38:49        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:49      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:50        0       297  305.00   47.00    0.00    0.00  352.00     0  ema-join-nl-thr
+
+20:38:49      UID       PID   cswch/s nvcswch/s  Command
+20:38:50        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:50      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:51        0       297  312.00   44.00    0.00    0.00  356.00     0  ema-join-nl-thr
+
+20:38:50      UID       PID   cswch/s nvcswch/s  Command
+20:38:51        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:51      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:52        0       297  309.00   45.00    0.00    0.00  354.00     0  ema-join-nl-thr
+
+20:38:51      UID       PID   cswch/s nvcswch/s  Command
+20:38:52        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:52      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:53        0       297  307.00   48.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:38:52      UID       PID   cswch/s nvcswch/s  Command
+20:38:53        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:53      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:54        0       297  304.00   43.00    0.00    0.00  347.00     0  ema-join-nl-thr
+
+20:38:53      UID       PID   cswch/s nvcswch/s  Command
+20:38:54        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:54      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:55        0       297  311.00   46.00    0.00    0.00  357.00     0  ema-join-nl-thr
+
+20:38:54      UID       PID   cswch/s nvcswch/s  Command
+20:38:55        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:55      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:56        0       297  319.00   48.00    0.00    0.00  367.00     0  ema-join-nl-thr
+
+20:38:55      UID       PID   cswch/s nvcswch/s  Command
+20:38:56        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:56      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:57        0       297  286.00   39.00    0.00    0.00  325.00     0  ema-join-nl-thr
+
+20:38:56      UID       PID   cswch/s nvcswch/s  Command
+20:38:57        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:57      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:58        0       297  306.93   44.55    0.00    0.00  351.49     0  ema-join-nl-thr
+
+20:38:57      UID       PID   cswch/s nvcswch/s  Command
+20:38:58        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:58      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:38:59        0       297  308.00   50.00    0.00    0.00  358.00     0  ema-join-nl-thr
+
+20:38:58      UID       PID   cswch/s nvcswch/s  Command
+20:38:59        0       297      0.00      0.00  ema-join-nl-thr
+
+20:38:59      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:00        0       297  306.00   49.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:38:59      UID       PID   cswch/s nvcswch/s  Command
+20:39:00        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:00      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:01        0       297  309.00   47.00    0.00    0.00  356.00     0  ema-join-nl-thr
+
+20:39:00      UID       PID   cswch/s nvcswch/s  Command
+20:39:01        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:01      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:02        0       297  310.00   46.00    0.00    0.00  356.00     0  ema-join-nl-thr
+
+20:39:01      UID       PID   cswch/s nvcswch/s  Command
+20:39:02        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:02      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:03        0       297  307.00   49.00    0.00    0.00  356.00     0  ema-join-nl-thr
+
+20:39:02      UID       PID   cswch/s nvcswch/s  Command
+20:39:03        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:03      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:04        0       297  312.00   44.00    0.00    0.00  356.00     0  ema-join-nl-thr
+
+20:39:03      UID       PID   cswch/s nvcswch/s  Command
+20:39:04        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:04      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:05        0       297  309.00   45.00    0.00    0.00  354.00     0  ema-join-nl-thr
+
+20:39:04      UID       PID   cswch/s nvcswch/s  Command
+20:39:05        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:05      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:06        0       297  313.00   42.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:39:05      UID       PID   cswch/s nvcswch/s  Command
+20:39:06        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:06      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:07        0       297  312.00   48.00    0.00    0.00  360.00     0  ema-join-nl-thr
+
+20:39:06      UID       PID   cswch/s nvcswch/s  Command
+20:39:07        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:07      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:08        0       297  307.92   41.58    0.00    0.00  349.50     0  ema-join-nl-thr
+
+20:39:07      UID       PID   cswch/s nvcswch/s  Command
+20:39:08        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:08      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:09        0       297  307.00   55.00    0.00    0.00  362.00     0  ema-join-nl-thr
+
+20:39:08      UID       PID   cswch/s nvcswch/s  Command
+20:39:09        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:09      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:10        0       297  311.00   44.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:39:09      UID       PID   cswch/s nvcswch/s  Command
+20:39:10        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:10      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:11        0       297  309.00   48.00    0.00    0.00  357.00     0  ema-join-nl-thr
+
+20:39:10      UID       PID   cswch/s nvcswch/s  Command
+20:39:11        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:11      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:12        0       297  293.00   37.00    0.00    0.00  330.00     0  ema-join-nl-thr
+
+20:39:11      UID       PID   cswch/s nvcswch/s  Command
+20:39:12        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:12      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:13        0       297  306.00   46.00    0.00    0.00  352.00     0  ema-join-nl-thr
+
+20:39:12      UID       PID   cswch/s nvcswch/s  Command
+20:39:13        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:13      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:14        0       297  302.00   44.00    0.00    0.00  346.00     0  ema-join-nl-thr
+
+20:39:13      UID       PID   cswch/s nvcswch/s  Command
+20:39:14        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:14      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:15        0       297  311.00   45.00    0.00    0.00  356.00     0  ema-join-nl-thr
+
+20:39:14      UID       PID   cswch/s nvcswch/s  Command
+20:39:15        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:15      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:16        0       297  314.00   44.00    0.00    0.00  358.00     0  ema-join-nl-thr
+
+20:39:15      UID       PID   cswch/s nvcswch/s  Command
+20:39:16        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:16      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:17        0       297  303.00   40.00    0.00    0.00  343.00     0  ema-join-nl-thr
+
+20:39:16      UID       PID   cswch/s nvcswch/s  Command
+20:39:17        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:17      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:18        0       297  309.90   46.53    0.00    0.00  356.44     0  ema-join-nl-thr
+
+20:39:17      UID       PID   cswch/s nvcswch/s  Command
+20:39:18        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:18      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:19        0       297  313.00   45.00    0.00    0.00  358.00     0  ema-join-nl-thr
+
+20:39:18      UID       PID   cswch/s nvcswch/s  Command
+20:39:19        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:19      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:20        0       297  309.00   45.00    0.00    0.00  354.00     0  ema-join-nl-thr
+
+20:39:19      UID       PID   cswch/s nvcswch/s  Command
+20:39:20        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:20      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:21        0       297  316.00   52.00    0.00    0.00  368.00     0  ema-join-nl-thr
+
+20:39:20      UID       PID   cswch/s nvcswch/s  Command
+20:39:21        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:21      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:22        0       297  312.00   42.00    0.00    0.00  354.00     0  ema-join-nl-thr
+
+20:39:21      UID       PID   cswch/s nvcswch/s  Command
+20:39:22        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:22      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:23        0       297  311.00   42.00    0.00    0.00  353.00     0  ema-join-nl-thr
+
+20:39:22      UID       PID   cswch/s nvcswch/s  Command
+20:39:23        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:23      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:24        0       297  311.00   42.00    0.00    0.00  353.00     0  ema-join-nl-thr
+
+20:39:23      UID       PID   cswch/s nvcswch/s  Command
+20:39:24        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:24      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:25        0       297  314.00   41.00    0.00    0.00  355.00     0  ema-join-nl-thr
+
+20:39:24      UID       PID   cswch/s nvcswch/s  Command
+20:39:25        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:25      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:26        0       297  309.00   43.00    0.00    0.00  352.00     0  ema-join-nl-thr
+
+20:39:25      UID       PID   cswch/s nvcswch/s  Command
+20:39:26        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:26      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:27        0       297  287.00   44.00    0.00    0.00  331.00     0  ema-join-nl-thr
+
+20:39:26      UID       PID   cswch/s nvcswch/s  Command
+20:39:27        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:27      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:28        0       297  286.14   40.59    0.00    0.00  326.73     0  ema-join-nl-thr
+
+20:39:27      UID       PID   cswch/s nvcswch/s  Command
+20:39:28        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:28      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:29        0       297  261.00   34.00    0.00    0.00  295.00     0  ema-join-nl-thr
+
+20:39:28      UID       PID   cswch/s nvcswch/s  Command
+20:39:29        0       297      0.00      0.00  ema-join-nl-thr
+
+20:39:29      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+20:39:30        0       297  257.00   36.00    0.00    0.00  293.00     0  ema-join-nl-thr
+
+20:39:29      UID       PID   cswch/s nvcswch/s  Command
+20:39:30        0       297      1.00      0.00  ema-join-nl-thr

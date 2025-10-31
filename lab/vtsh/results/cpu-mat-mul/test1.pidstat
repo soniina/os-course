@@ -1,0 +1,393 @@
+> pidstat -u -w -p <pid>
+
+Linux 6.10.14-linuxkit (c55dff173d23) 	11/04/25 	_aarch64_	(8 CPU)
+
+13:18:31      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:32        0       718   99.01    0.00    0.00    0.00   99.01     0  cpu-mat-mul
+
+13:18:31      UID       PID   cswch/s nvcswch/s  Command
+13:18:32        0       718      0.00     16.83  cpu-mat-mul
+
+13:18:32      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:33        0       718  101.00    0.00    0.00    0.00  101.00     0  cpu-mat-mul
+
+13:18:32      UID       PID   cswch/s nvcswch/s  Command
+13:18:33        0       718      0.00    127.00  cpu-mat-mul
+
+13:18:33      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:34        0       718   99.00    0.00    0.00    0.00   99.00     0  cpu-mat-mul
+
+13:18:33      UID       PID   cswch/s nvcswch/s  Command
+13:18:34        0       718      0.00    142.00  cpu-mat-mul
+
+13:18:34      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:35        0       718  100.00    0.00    0.00    0.00  100.00     0  cpu-mat-mul
+
+13:18:34      UID       PID   cswch/s nvcswch/s  Command
+13:18:35        0       718      0.00    112.00  cpu-mat-mul
+
+13:18:35      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:36        0       718  100.00    0.00    0.00    0.00  100.00     0  cpu-mat-mul
+
+13:18:35      UID       PID   cswch/s nvcswch/s  Command
+13:18:36        0       718      0.00    131.00  cpu-mat-mul
+
+13:18:36      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:37        0       718  100.00    0.00    0.00    0.00  100.00     0  cpu-mat-mul
+
+13:18:36      UID       PID   cswch/s nvcswch/s  Command
+13:18:37        0       718      0.00    153.00  cpu-mat-mul
+
+13:18:37      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:38        0       718  100.00    0.00    0.00    0.00  100.00     0  cpu-mat-mul
+
+13:18:37      UID       PID   cswch/s nvcswch/s  Command
+13:18:38        0       718      0.00    152.00  cpu-mat-mul
+
+13:18:38      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:39        0       718   99.01    0.00    0.00    0.00   99.01     0  cpu-mat-mul
+
+13:18:38      UID       PID   cswch/s nvcswch/s  Command
+13:18:39        0       718      0.00    150.50  cpu-mat-mul
+
+13:18:39      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:40        0       718  100.00    1.00    0.00    1.00  101.00     0  cpu-mat-mul
+
+13:18:39      UID       PID   cswch/s nvcswch/s  Command
+13:18:40        0       718      0.00    155.00  cpu-mat-mul
+
+13:18:40      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:41        0       718  100.00    0.00    0.00    0.00  100.00     0  cpu-mat-mul
+
+13:18:40      UID       PID   cswch/s nvcswch/s  Command
+13:18:41        0       718      0.00    151.00  cpu-mat-mul
+
+13:18:41      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:42        0       718  100.00    0.00    0.00    0.00  100.00     0  cpu-mat-mul
+
+13:18:41      UID       PID   cswch/s nvcswch/s  Command
+13:18:42        0       718      0.00    155.00  cpu-mat-mul
+
+13:18:42      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:43        0       718  100.00    0.00    0.00    0.00  100.00     0  cpu-mat-mul
+
+13:18:42      UID       PID   cswch/s nvcswch/s  Command
+13:18:43        0       718      0.00    151.00  cpu-mat-mul
+
+13:18:43      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:44        0       718  100.00    0.00    0.00    0.00  100.00     0  cpu-mat-mul
+
+13:18:43      UID       PID   cswch/s nvcswch/s  Command
+13:18:44        0       718      0.00    154.00  cpu-mat-mul
+
+13:18:44      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:45        0       718  100.00    0.00    0.00    0.00  100.00     0  cpu-mat-mul
+
+13:18:44      UID       PID   cswch/s nvcswch/s  Command
+13:18:45        0       718      0.00    152.00  cpu-mat-mul
+
+13:18:45      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:46        0       718  100.00    0.00    0.00    0.00  100.00     0  cpu-mat-mul
+
+13:18:45      UID       PID   cswch/s nvcswch/s  Command
+13:18:46        0       718      0.00    156.00  cpu-mat-mul
+
+13:18:46      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:47        0       718  100.00    0.00    0.00    0.00  100.00     0  cpu-mat-mul
+
+13:18:46      UID       PID   cswch/s nvcswch/s  Command
+13:18:47        0       718      0.00    151.00  cpu-mat-mul
+
+13:18:47      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:48        0       718   99.00    0.00    0.00    0.00   99.00     0  cpu-mat-mul
+
+13:18:47      UID       PID   cswch/s nvcswch/s  Command
+13:18:48        0       718      0.00    153.00  cpu-mat-mul
+
+13:18:48      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:49        0       718   99.01    0.00    0.00    0.99   99.01     0  cpu-mat-mul
+
+13:18:48      UID       PID   cswch/s nvcswch/s  Command
+13:18:49        0       718      0.00    151.49  cpu-mat-mul
+
+13:18:49      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:50        0       718  100.00    0.00    0.00    0.00  100.00     0  cpu-mat-mul
+
+13:18:49      UID       PID   cswch/s nvcswch/s  Command
+13:18:50        0       718      0.00    155.00  cpu-mat-mul
+
+13:18:50      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:51        0       718  101.00    0.00    0.00    0.00  101.00     4  cpu-mat-mul
+
+13:18:50      UID       PID   cswch/s nvcswch/s  Command
+13:18:51        0       718      0.00    149.00  cpu-mat-mul
+
+13:18:51      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:52        0       718   99.01    0.00    0.00    0.00   99.01     4  cpu-mat-mul
+
+13:18:51      UID       PID   cswch/s nvcswch/s  Command
+13:18:52        0       718      0.00      4.95  cpu-mat-mul
+
+13:18:52      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:53        0       718  100.00    0.00    0.00    0.00  100.00     4  cpu-mat-mul
+
+13:18:52      UID       PID   cswch/s nvcswch/s  Command
+13:18:53        0       718      0.00      4.00  cpu-mat-mul
+
+13:18:53      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:54        0       718  101.00    0.00    0.00    0.00  101.00     4  cpu-mat-mul
+
+13:18:53      UID       PID   cswch/s nvcswch/s  Command
+13:18:54        0       718      0.00      8.00  cpu-mat-mul
+
+13:18:54      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:55        0       718  100.00    0.00    0.00    0.00  100.00     4  cpu-mat-mul
+
+13:18:54      UID       PID   cswch/s nvcswch/s  Command
+13:18:55        0       718      0.00      4.00  cpu-mat-mul
+
+13:18:55      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:56        0       718  100.00    0.00    0.00    0.00  100.00     4  cpu-mat-mul
+
+13:18:55      UID       PID   cswch/s nvcswch/s  Command
+13:18:56        0       718      0.00      6.00  cpu-mat-mul
+
+13:18:56      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:57        0       718   99.01    0.00    0.00    0.00   99.01     4  cpu-mat-mul
+
+13:18:56      UID       PID   cswch/s nvcswch/s  Command
+13:18:57        0       718      0.00      3.96  cpu-mat-mul
+
+13:18:57      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:58        0       718  101.00    0.00    0.00    0.00  101.00     4  cpu-mat-mul
+
+13:18:57      UID       PID   cswch/s nvcswch/s  Command
+13:18:58        0       718      0.00      7.00  cpu-mat-mul
+
+13:18:58      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:18:59        0       718   99.01    0.00    0.00    0.00   99.01     4  cpu-mat-mul
+
+13:18:58      UID       PID   cswch/s nvcswch/s  Command
+13:18:59        0       718      0.00      2.97  cpu-mat-mul
+
+13:18:59      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:00        0       718  100.00    0.00    0.00    0.00  100.00     4  cpu-mat-mul
+
+13:18:59      UID       PID   cswch/s nvcswch/s  Command
+13:19:00        0       718      0.00      5.00  cpu-mat-mul
+
+13:19:00      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:01        0       718  101.00    0.00    0.00    0.00  101.00     4  cpu-mat-mul
+
+13:19:00      UID       PID   cswch/s nvcswch/s  Command
+13:19:01        0       718      0.00      4.00  cpu-mat-mul
+
+13:19:01      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:02        0       718  100.00    0.00    0.00    0.00  100.00     4  cpu-mat-mul
+
+13:19:01      UID       PID   cswch/s nvcswch/s  Command
+13:19:02        0       718      0.00      8.00  cpu-mat-mul
+
+13:19:02      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:03        0       718   99.01    0.00    0.00    0.00   99.01     4  cpu-mat-mul
+
+13:19:02      UID       PID   cswch/s nvcswch/s  Command
+13:19:03        0       718      0.00      3.96  cpu-mat-mul
+
+13:19:03      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:04        0       718  101.00    0.00    0.00    0.00  101.00     4  cpu-mat-mul
+
+13:19:03      UID       PID   cswch/s nvcswch/s  Command
+13:19:04        0       718      0.00      6.00  cpu-mat-mul
+
+13:19:04      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:05        0       718  100.00    0.00    0.00    0.00  100.00     4  cpu-mat-mul
+
+13:19:04      UID       PID   cswch/s nvcswch/s  Command
+13:19:05        0       718      0.00      5.00  cpu-mat-mul
+
+13:19:05      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:06        0       718   99.01    0.00    0.00    0.00   99.01     4  cpu-mat-mul
+
+13:19:05      UID       PID   cswch/s nvcswch/s  Command
+13:19:06        0       718      0.00      6.93  cpu-mat-mul
+
+13:19:06      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:07        0       718  100.00    0.00    0.00    0.00  100.00     4  cpu-mat-mul
+
+13:19:06      UID       PID   cswch/s nvcswch/s  Command
+13:19:07        0       718      0.00      3.00  cpu-mat-mul
+
+13:19:07      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:08        0       718  101.00    0.00    0.00    0.00  101.00     4  cpu-mat-mul
+
+13:19:07      UID       PID   cswch/s nvcswch/s  Command
+13:19:08        0       718      0.00      5.00  cpu-mat-mul
+
+13:19:08      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:09        0       718   99.01    0.00    0.00    0.00   99.01     4  cpu-mat-mul
+
+13:19:08      UID       PID   cswch/s nvcswch/s  Command
+13:19:09        0       718      0.00      3.96  cpu-mat-mul
+
+13:19:09      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:10        0       718  100.00    0.00    0.00    0.00  100.00     4  cpu-mat-mul
+
+13:19:09      UID       PID   cswch/s nvcswch/s  Command
+13:19:10        0       718      0.00      7.92  cpu-mat-mul
+
+13:19:10      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:11        0       718  101.00    0.00    0.00    0.00  101.00     4  cpu-mat-mul
+
+13:19:10      UID       PID   cswch/s nvcswch/s  Command
+13:19:11        0       718      2.00      3.00  cpu-mat-mul
+
+13:19:11      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:12        0       718   99.01    0.00    0.00    0.00   99.01     4  cpu-mat-mul
+
+13:19:11      UID       PID   cswch/s nvcswch/s  Command
+13:19:12        0       718      0.00      5.94  cpu-mat-mul
+
+13:19:12      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:13        0       718  100.00    0.00    0.00    0.00  100.00     4  cpu-mat-mul
+
+13:19:12      UID       PID   cswch/s nvcswch/s  Command
+13:19:13        0       718      0.00      4.00  cpu-mat-mul
+
+13:19:13      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:14        0       718  101.00    0.00    0.00    0.00  101.00     4  cpu-mat-mul
+
+13:19:13      UID       PID   cswch/s nvcswch/s  Command
+13:19:14        0       718      0.00      7.00  cpu-mat-mul
+
+13:19:14      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:15        0       718   99.01    0.00    0.00    0.00   99.01     4  cpu-mat-mul
+
+13:19:14      UID       PID   cswch/s nvcswch/s  Command
+13:19:15        0       718      0.00      2.97  cpu-mat-mul
+
+13:19:15      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:16        0       718  101.00    0.00    0.00    0.00  101.00     4  cpu-mat-mul
+
+13:19:15      UID       PID   cswch/s nvcswch/s  Command
+13:19:16        0       718      0.00      5.00  cpu-mat-mul
+
+13:19:16      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:17        0       718   99.01    0.00    0.00    0.00   99.01     4  cpu-mat-mul
+
+13:19:16      UID       PID   cswch/s nvcswch/s  Command
+13:19:17        0       718      0.00      3.96  cpu-mat-mul
+
+13:19:17      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:18        0       718  100.00    0.00    0.00    0.00  100.00     4  cpu-mat-mul
+
+13:19:17      UID       PID   cswch/s nvcswch/s  Command
+13:19:18        0       718      0.00      8.00  cpu-mat-mul
+
+13:19:18      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:19        0       718  101.00    0.00    0.00    0.00  101.00     4  cpu-mat-mul
+
+13:19:18      UID       PID   cswch/s nvcswch/s  Command
+13:19:19        0       718      0.00      3.00  cpu-mat-mul
+
+13:19:19      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:20        0       718   99.01    0.00    0.00    0.00   99.01     4  cpu-mat-mul
+
+13:19:19      UID       PID   cswch/s nvcswch/s  Command
+13:19:20        0       718      0.00      6.93  cpu-mat-mul
+
+13:19:20      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:21        0       718  101.00    0.00    0.00    0.00  101.00     4  cpu-mat-mul
+
+13:19:20      UID       PID   cswch/s nvcswch/s  Command
+13:19:21        0       718      0.00      3.00  cpu-mat-mul
+
+13:19:21      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:22        0       718   99.01    0.00    0.00    0.00   99.01     4  cpu-mat-mul
+
+13:19:21      UID       PID   cswch/s nvcswch/s  Command
+13:19:22        0       718      0.00      5.94  cpu-mat-mul
+
+13:19:22      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:23        0       718  101.00    0.00    0.00    0.00  101.00     4  cpu-mat-mul
+
+13:19:22      UID       PID   cswch/s nvcswch/s  Command
+13:19:23        0       718      0.00      4.00  cpu-mat-mul
+
+13:19:23      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:24        0       718   99.01    0.00    0.00    0.00   99.01     4  cpu-mat-mul
+
+13:19:23      UID       PID   cswch/s nvcswch/s  Command
+13:19:24        0       718      0.00      4.95  cpu-mat-mul
+
+13:19:24      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:25        0       718  101.00    0.00    0.00    0.00  101.00     4  cpu-mat-mul
+
+13:19:24      UID       PID   cswch/s nvcswch/s  Command
+13:19:25        0       718      0.00      5.00  cpu-mat-mul
+
+13:19:25      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:26        0       718   99.01    0.00    0.00    0.00   99.01     4  cpu-mat-mul
+
+13:19:25      UID       PID   cswch/s nvcswch/s  Command
+13:19:26        0       718      0.00      7.92  cpu-mat-mul
+
+13:19:26      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:27        0       718  100.00    0.00    0.00    0.00  100.00     4  cpu-mat-mul
+
+13:19:26      UID       PID   cswch/s nvcswch/s  Command
+13:19:27        0       718      0.00      3.00  cpu-mat-mul
+
+13:19:27      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:28        0       718  101.00    0.00    0.00    0.00  101.00     4  cpu-mat-mul
+
+13:19:27      UID       PID   cswch/s nvcswch/s  Command
+13:19:28        0       718      0.00      6.00  cpu-mat-mul
+
+13:19:28      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:29        0       718   99.01    0.00    0.00    0.00   99.01     4  cpu-mat-mul
+
+13:19:28      UID       PID   cswch/s nvcswch/s  Command
+13:19:29        0       718      0.00      3.96  cpu-mat-mul
+
+13:19:29      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:30        0       718  100.00    0.00    0.00    0.00  100.00     4  cpu-mat-mul
+
+13:19:29      UID       PID   cswch/s nvcswch/s  Command
+13:19:30        0       718      0.00      8.91  cpu-mat-mul
+
+13:19:30      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:31        0       718  100.00    0.00    0.00    0.00  100.00     4  cpu-mat-mul
+
+13:19:30      UID       PID   cswch/s nvcswch/s  Command
+13:19:31        0       718      0.00      3.00  cpu-mat-mul
+
+13:19:31      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:32        0       718  100.00    0.00    0.00    0.00  100.00     4  cpu-mat-mul
+
+13:19:31      UID       PID   cswch/s nvcswch/s  Command
+13:19:32        0       718      0.00      4.95  cpu-mat-mul
+
+13:19:32      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:33        0       718  101.00    0.00    0.00    0.00  101.00     4  cpu-mat-mul
+
+13:19:32      UID       PID   cswch/s nvcswch/s  Command
+13:19:33        0       718      0.00      3.00  cpu-mat-mul
+
+13:19:33      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:34        0       718   99.01    0.00    0.00    0.00   99.01     4  cpu-mat-mul
+
+13:19:33      UID       PID   cswch/s nvcswch/s  Command
+13:19:34        0       718      0.00      6.93  cpu-mat-mul
+
+13:19:34      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:35        0       718  101.00    0.00    0.00    0.00  101.00     4  cpu-mat-mul
+
+13:19:34      UID       PID   cswch/s nvcswch/s  Command
+13:19:35        0       718      0.00      5.00  cpu-mat-mul
+
+13:19:35      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+13:19:36        0       718   99.01    0.00    0.00    0.00   99.01     4  cpu-mat-mul
+
+13:19:35      UID       PID   cswch/s nvcswch/s  Command
+13:19:36        0       718      0.00      5.94  cpu-mat-mul

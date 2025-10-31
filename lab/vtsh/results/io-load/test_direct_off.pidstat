@@ -1,0 +1,453 @@
+> pidstat -u -w -p <pid>
+
+Linux 6.10.14-linuxkit (9a3113c59d54) 	11/03/25 	_aarch64_	(8 CPU)
+
+19:08:48      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:08:49        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:08:48      UID       PID   cswch/s nvcswch/s  Command
+19:08:49        0       198      0.00     20.00  io-load
+
+19:08:49      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:08:50        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:08:49      UID       PID   cswch/s nvcswch/s  Command
+19:08:50        0       198      0.00    150.00  io-load
+
+19:08:50      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:08:51        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:08:50      UID       PID   cswch/s nvcswch/s  Command
+19:08:51        0       198      0.00    149.00  io-load
+
+19:08:51      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:08:52        0       198    0.00   99.01    0.00    0.99   99.01     0  io-load
+
+19:08:51      UID       PID   cswch/s nvcswch/s  Command
+19:08:52        0       198      0.00    152.48  io-load
+
+19:08:52      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:08:53        0       198    0.00   99.00    0.00    0.00   99.00     0  io-load
+
+19:08:52      UID       PID   cswch/s nvcswch/s  Command
+19:08:53        0       198      0.00    148.00  io-load
+
+19:08:53      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:08:54        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:08:53      UID       PID   cswch/s nvcswch/s  Command
+19:08:54        0       198      0.00    154.00  io-load
+
+19:08:54      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:08:55        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:08:54      UID       PID   cswch/s nvcswch/s  Command
+19:08:55        0       198      0.00    148.00  io-load
+
+19:08:55      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:08:56        0       198    0.00  100.00    0.00    1.00  100.00     0  io-load
+
+19:08:55      UID       PID   cswch/s nvcswch/s  Command
+19:08:56        0       198      0.00    153.00  io-load
+
+19:08:56      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:08:57        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:08:56      UID       PID   cswch/s nvcswch/s  Command
+19:08:57        0       198      0.00    148.51  io-load
+
+19:08:57      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:08:58        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:08:57      UID       PID   cswch/s nvcswch/s  Command
+19:08:58        0       198      0.00    150.00  io-load
+
+19:08:58      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:08:59        0       198    0.00   99.01    0.00    0.99   99.01     0  io-load
+
+19:08:58      UID       PID   cswch/s nvcswch/s  Command
+19:08:59        0       198      0.00    147.52  io-load
+
+19:08:59      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:00        0       198    0.00   99.01    0.00    0.00   99.01     0  io-load
+
+19:08:59      UID       PID   cswch/s nvcswch/s  Command
+19:09:00        0       198      0.00    151.49  io-load
+
+19:09:00      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:01        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:00      UID       PID   cswch/s nvcswch/s  Command
+19:09:01        0       198      0.00    148.00  io-load
+
+19:09:01      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:02        0       198    0.00  100.00    0.00    1.00  100.00     0  io-load
+
+19:09:01      UID       PID   cswch/s nvcswch/s  Command
+19:09:02        0       198      0.00    150.00  io-load
+
+19:09:02      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:03        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:02      UID       PID   cswch/s nvcswch/s  Command
+19:09:03        0       198      0.00    149.00  io-load
+
+19:09:03      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:04        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:03      UID       PID   cswch/s nvcswch/s  Command
+19:09:04        0       198      0.00    153.00  io-load
+
+19:09:04      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:05        0       198    0.00   99.01    0.00    0.99   99.01     0  io-load
+
+19:09:04      UID       PID   cswch/s nvcswch/s  Command
+19:09:05        0       198      0.00    147.52  io-load
+
+19:09:05      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:06        0       198    0.00   99.01    0.00    0.00   99.01     0  io-load
+
+19:09:05      UID       PID   cswch/s nvcswch/s  Command
+19:09:06        0       198      0.00    149.50  io-load
+
+19:09:06      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:07        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:06      UID       PID   cswch/s nvcswch/s  Command
+19:09:07        0       198      0.00    155.00  io-load
+
+19:09:07      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:08        0       198    0.00  100.00    0.00    1.00  100.00     0  io-load
+
+19:09:07      UID       PID   cswch/s nvcswch/s  Command
+19:09:08        0       198      0.00    152.00  io-load
+
+19:09:08      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:09        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:08      UID       PID   cswch/s nvcswch/s  Command
+19:09:09        0       198      0.00    148.51  io-load
+
+19:09:09      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:10        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:09      UID       PID   cswch/s nvcswch/s  Command
+19:09:10        0       198      0.00    151.00  io-load
+
+19:09:10      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:11        0       198    0.00   99.01    0.00    0.00   99.01     0  io-load
+
+19:09:10      UID       PID   cswch/s nvcswch/s  Command
+19:09:11        0       198      0.00    148.51  io-load
+
+19:09:11      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:12        0       198    0.00   99.00    0.00    1.00   99.00     0  io-load
+
+19:09:11      UID       PID   cswch/s nvcswch/s  Command
+19:09:12        0       198      0.00    150.00  io-load
+
+19:09:12      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:13        0       198    0.00  101.00    0.00    0.00  101.00     0  io-load
+
+19:09:12      UID       PID   cswch/s nvcswch/s  Command
+19:09:13        0       198      0.00    149.00  io-load
+
+19:09:13      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:14        0       198    0.00   99.01    0.00    0.00   99.01     0  io-load
+
+19:09:13      UID       PID   cswch/s nvcswch/s  Command
+19:09:14        0       198      0.00    147.52  io-load
+
+19:09:14      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:15        0       198    0.00  100.00    0.00    1.00  100.00     0  io-load
+
+19:09:14      UID       PID   cswch/s nvcswch/s  Command
+19:09:15        0       198      0.00    166.00  io-load
+
+19:09:15      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:16        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:15      UID       PID   cswch/s nvcswch/s  Command
+19:09:16        0       198      0.00    152.00  io-load
+
+19:09:16      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:17        0       198    0.00   99.01    0.00    0.00   99.01     0  io-load
+
+19:09:16      UID       PID   cswch/s nvcswch/s  Command
+19:09:17        0       198      0.00    148.51  io-load
+
+19:09:17      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:18        0       198    0.00  100.00    0.00    1.00  100.00     0  io-load
+
+19:09:17      UID       PID   cswch/s nvcswch/s  Command
+19:09:18        0       198      0.00    150.00  io-load
+
+19:09:18      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:19        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:18      UID       PID   cswch/s nvcswch/s  Command
+19:09:19        0       198      0.00    152.00  io-load
+
+19:09:19      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:20        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:19      UID       PID   cswch/s nvcswch/s  Command
+19:09:20        0       198      0.00    155.00  io-load
+
+19:09:20      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:21        0       198    0.00   98.02    0.00    0.99   98.02     0  io-load
+
+19:09:20      UID       PID   cswch/s nvcswch/s  Command
+19:09:21        0       198      0.00    148.51  io-load
+
+19:09:21      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:22        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:21      UID       PID   cswch/s nvcswch/s  Command
+19:09:22        0       198      0.00    149.00  io-load
+
+19:09:22      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:23        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:22      UID       PID   cswch/s nvcswch/s  Command
+19:09:23        0       198      0.00    150.00  io-load
+
+19:09:23      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:24        0       198    0.00  100.00    0.00    1.00  100.00     0  io-load
+
+19:09:23      UID       PID   cswch/s nvcswch/s  Command
+19:09:24        0       198      0.00    151.00  io-load
+
+19:09:24      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:25        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:24      UID       PID   cswch/s nvcswch/s  Command
+19:09:25        0       198      0.00    151.00  io-load
+
+19:09:25      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:26        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:25      UID       PID   cswch/s nvcswch/s  Command
+19:09:26        0       198      0.00    149.00  io-load
+
+19:09:26      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:27        0       198    0.00   99.01    0.00    0.99   99.01     0  io-load
+
+19:09:26      UID       PID   cswch/s nvcswch/s  Command
+19:09:27        0       198      0.00    152.48  io-load
+
+19:09:27      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:28        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:27      UID       PID   cswch/s nvcswch/s  Command
+19:09:28        0       198      0.00    152.00  io-load
+
+19:09:28      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:29        0       198    0.00   99.00    0.00    0.00   99.00     0  io-load
+
+19:09:28      UID       PID   cswch/s nvcswch/s  Command
+19:09:29        0       198      0.00    150.00  io-load
+
+19:09:29      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:30        0       198    0.00  100.00    0.00    1.00  100.00     0  io-load
+
+19:09:29      UID       PID   cswch/s nvcswch/s  Command
+19:09:30        0       198      0.00    148.00  io-load
+
+19:09:30      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:31        0       198    0.00   99.01    0.00    0.00   99.01     0  io-load
+
+19:09:30      UID       PID   cswch/s nvcswch/s  Command
+19:09:31        0       198      0.00    149.50  io-load
+
+19:09:31      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:32        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:31      UID       PID   cswch/s nvcswch/s  Command
+19:09:32        0       198      0.00    151.00  io-load
+
+19:09:32      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:33        0       198    0.00   99.01    0.00    0.99   99.01     0  io-load
+
+19:09:32      UID       PID   cswch/s nvcswch/s  Command
+19:09:33        0       198      0.00    150.50  io-load
+
+19:09:33      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:34        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:33      UID       PID   cswch/s nvcswch/s  Command
+19:09:34        0       198      0.00    148.00  io-load
+
+19:09:34      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:35        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:34      UID       PID   cswch/s nvcswch/s  Command
+19:09:35        0       198      0.00    154.00  io-load
+
+19:09:35      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:36        0       198    0.00  100.00    0.00    1.00  100.00     0  io-load
+
+19:09:35      UID       PID   cswch/s nvcswch/s  Command
+19:09:36        0       198      0.00    160.00  io-load
+
+19:09:36      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:37        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:36      UID       PID   cswch/s nvcswch/s  Command
+19:09:37        0       198      0.00    150.00  io-load
+
+19:09:37      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:38        0       198    0.00   99.00    0.00    0.00   99.00     0  io-load
+
+19:09:37      UID       PID   cswch/s nvcswch/s  Command
+19:09:38        0       198      0.00    148.00  io-load
+
+19:09:38      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:39        0       198    0.00   99.01    0.00    0.99   99.01     0  io-load
+
+19:09:38      UID       PID   cswch/s nvcswch/s  Command
+19:09:39        0       198      0.00    149.50  io-load
+
+19:09:39      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:40        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:39      UID       PID   cswch/s nvcswch/s  Command
+19:09:40        0       198      0.00    154.00  io-load
+
+19:09:40      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:41        0       198    0.00   99.00    0.00    0.00   99.00     0  io-load
+
+19:09:40      UID       PID   cswch/s nvcswch/s  Command
+19:09:41        0       198      0.00    148.00  io-load
+
+19:09:41      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:42        0       198    0.00  101.00    0.00    1.00  101.00     0  io-load
+
+19:09:41      UID       PID   cswch/s nvcswch/s  Command
+19:09:42        0       198      0.00    148.00  io-load
+
+19:09:42      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:43        0       198    0.00   99.01    0.00    0.00   99.01     0  io-load
+
+19:09:42      UID       PID   cswch/s nvcswch/s  Command
+19:09:43        0       198      0.00    149.50  io-load
+
+19:09:43      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:44        0       198    0.00  100.00    0.00    1.00  100.00     0  io-load
+
+19:09:43      UID       PID   cswch/s nvcswch/s  Command
+19:09:44        0       198      0.00    151.00  io-load
+
+19:09:44      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:45        0       198    0.00   99.00    0.00    0.00   99.00     0  io-load
+
+19:09:44      UID       PID   cswch/s nvcswch/s  Command
+19:09:45        0       198      0.00    150.00  io-load
+
+19:09:45      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:46        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:45      UID       PID   cswch/s nvcswch/s  Command
+19:09:46        0       198      0.00    149.00  io-load
+
+19:09:46      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:47        0       198    0.00  100.00    0.00    1.00  100.00     0  io-load
+
+19:09:46      UID       PID   cswch/s nvcswch/s  Command
+19:09:47        0       198      0.00    151.00  io-load
+
+19:09:47      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:48        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:47      UID       PID   cswch/s nvcswch/s  Command
+19:09:48        0       198      0.00    153.00  io-load
+
+19:09:48      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:49        0       198    0.00   98.02    0.00    0.00   98.02     0  io-load
+
+19:09:48      UID       PID   cswch/s nvcswch/s  Command
+19:09:49        0       198      0.00    148.51  io-load
+
+19:09:49      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:50        0       198    0.00  100.00    0.00    1.00  100.00     0  io-load
+
+19:09:49      UID       PID   cswch/s nvcswch/s  Command
+19:09:50        0       198      0.00    151.00  io-load
+
+19:09:50      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:51        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:50      UID       PID   cswch/s nvcswch/s  Command
+19:09:51        0       198      0.00    149.00  io-load
+
+19:09:51      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:52        0       198    0.00   99.00    0.00    1.00   99.00     0  io-load
+
+19:09:51      UID       PID   cswch/s nvcswch/s  Command
+19:09:52        0       198      0.00    152.00  io-load
+
+19:09:52      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:53        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:52      UID       PID   cswch/s nvcswch/s  Command
+19:09:53        0       198      0.00    151.00  io-load
+
+19:09:53      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:54        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:53      UID       PID   cswch/s nvcswch/s  Command
+19:09:54        0       198      0.00    148.00  io-load
+
+19:09:54      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:55        0       198    0.00   99.01    0.00    0.99   99.01     0  io-load
+
+19:09:54      UID       PID   cswch/s nvcswch/s  Command
+19:09:55        0       198      0.00    148.51  io-load
+
+19:09:55      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:56        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:55      UID       PID   cswch/s nvcswch/s  Command
+19:09:56        0       198      0.00    151.00  io-load
+
+19:09:56      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:57        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:56      UID       PID   cswch/s nvcswch/s  Command
+19:09:57        0       198      0.00    150.00  io-load
+
+19:09:57      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:58        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:57      UID       PID   cswch/s nvcswch/s  Command
+19:09:58        0       198      0.00    151.00  io-load
+
+19:09:58      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:09:59        0       198    0.00   99.01    0.00    0.99   99.01     0  io-load
+
+19:09:58      UID       PID   cswch/s nvcswch/s  Command
+19:09:59        0       198      0.00    148.51  io-load
+
+19:09:59      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:10:00        0       198    0.00  100.00    0.00    0.00  100.00     0  io-load
+
+19:09:59      UID       PID   cswch/s nvcswch/s  Command
+19:10:00        0       198      0.00    151.00  io-load
+
+19:10:00      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:10:01        0       198    0.00   99.00    0.00    0.00   99.00     0  io-load
+
+19:10:00      UID       PID   cswch/s nvcswch/s  Command
+19:10:01        0       198      0.00    151.00  io-load
+
+19:10:01      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:10:02        0       198    0.00  101.00    0.00    1.00  101.00     0  io-load
+
+19:10:01      UID       PID   cswch/s nvcswch/s  Command
+19:10:02        0       198      0.00    152.00  io-load
+
+19:10:02      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+19:10:03        0       198    0.00   99.00    0.00    0.00   99.00     0  io-load
+
+19:10:02      UID       PID   cswch/s nvcswch/s  Command
+19:10:03        0       198      0.00    148.00  io-load

@@ -1,3 +1,4 @@
+#include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -13,6 +14,13 @@ typedef struct {
   char** file2;
   char** output;
 } file_args_t;
+
+typedef struct {
+  char* file1;
+  char* file2;
+  char* output;
+  long iterations;
+} thread_args_t;
 
 typedef struct {
   int id;
@@ -147,6 +155,39 @@ static int parse_arguments(
   return 0;
 }
 
+void* thread_work(void* arg) {
+  thread_args_t* data = (thread_args_t*)arg;
+
+  for (int iter = 0; iter < data->iterations; iter++) {
+    int count1 = 0;
+    int count2 = 0;
+    row_t* table1 = load_table(data->file1, &count1);
+    if (!table1) {
+      pthread_exit(NULL);
+    }
+    row_t* table2 = load_table(data->file2, &count2);
+    if (!table2) {
+      free(table1);
+      pthread_exit(NULL);
+    }
+
+    FILE* file = fopen(data->output, "w");
+    if (file == NULL) {
+      perror("Failed to open output file");
+      free(table1);
+      free(table2);
+      pthread_exit(NULL);
+    }
+    nested_loop_join(table1, count1, table2, count2, file);
+    (void)fclose(file);
+
+    free(table1);
+    free(table2);
+  }
+
+  pthread_exit(NULL);
+}
+
 int main(int argc, char* argv[]) {
   char* file1 = NULL;
   char* file2 = NULL;
@@ -164,32 +205,35 @@ int main(int argc, char* argv[]) {
     return 1;
   }
 
-  for (int iter = 0; iter < iterations; iter++) {
-    int count1 = 0;
-    int count2 = 0;
-    row_t* table1 = load_table(file1, &count1);
-    if (!table1) {
-      return 1;
-    }
-    row_t* table2 = load_table(file2, &count2);
-    if (!table2) {
-      free(table1);
-      return 1;
-    }
+  long num_threads = sysconf(_SC_NPROCESSORS_ONLN);
+  pthread_t* threads = malloc(num_threads * sizeof(pthread_t));
+  thread_args_t* thread_args = malloc(num_threads * sizeof(thread_args_t));
 
-    FILE* file = fopen(output, "w");
-    if (file == NULL) {
-      perror("Failed to open output file");
-      free(table1);
-      free(table2);
-      return 1;
-    }
-    nested_loop_join(table1, count1, table2, count2, file);
-    (void)fclose(file);
-
-    free(table1);
-    free(table2);
+  if (threads == NULL || thread_args == NULL) {
+    perror("malloc failed");
+    return 1;
   }
+
+  for (int i = 0; i < num_threads; i++) {
+    thread_args[i].file1 = file1;
+    thread_args[i].file2 = file2;
+    thread_args[i].output = output;
+    thread_args[i].iterations = iterations;
+
+    if (pthread_create(&threads[i], NULL, thread_work, &thread_args[i]) != 0) {
+      perror("pthread_create failed");
+      free(threads);
+      free(thread_args);
+      return 1;
+    }
+  }
+
+  for (int i = 0; i < num_threads; i++) {
+    pthread_join(threads[i], NULL);
+  }
+
+  free(threads);
+  free(thread_args);
 
   return 0;
 }
