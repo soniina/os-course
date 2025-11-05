@@ -28,6 +28,11 @@ add_executable(
     io-load.c
 )
 
+add_executable(
+    io-load-threaded
+    io-load-threaded.c
+)
+
 target_include_directories(
     vtsh
     PUBLIC

@@ -1,0 +1,813 @@
+> pidstat -u -w -p <pids>
+
+Linux 6.10.14-linuxkit (0bf7d64408c6) 	11/05/25 	_aarch64_	(8 CPU)
+
+11:37:48      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:37:49        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:37:48      UID       PID   cswch/s nvcswch/s  Command
+11:37:49        0       497      0.00      0.00  io-load-threade
+
+11:37:49      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:37:50        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:37:49      UID       PID   cswch/s nvcswch/s  Command
+11:37:50        0       497      0.00      0.00  io-load-threade
+
+11:37:50      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:37:51        0       497    0.00  798.00    0.00    0.00  798.00     0  io-load-threade
+
+11:37:50      UID       PID   cswch/s nvcswch/s  Command
+11:37:51        0       497      0.00      0.00  io-load-threade
+
+11:37:51      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:37:52        0       497    0.00  789.00    0.00    0.00  789.00     0  io-load-threade
+
+11:37:51      UID       PID   cswch/s nvcswch/s  Command
+11:37:52        0       497      0.00      0.00  io-load-threade
+
+11:37:52      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:37:53        0       497    1.00  799.00    0.00    0.00  800.00     0  io-load-threade
+
+11:37:52      UID       PID   cswch/s nvcswch/s  Command
+11:37:53        0       497      0.00      0.00  io-load-threade
+
+11:37:53      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:37:54        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:37:53      UID       PID   cswch/s nvcswch/s  Command
+11:37:54        0       497      0.00      0.00  io-load-threade
+
+11:37:54      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:37:55        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:37:54      UID       PID   cswch/s nvcswch/s  Command
+11:37:55        0       497      0.00      0.00  io-load-threade
+
+11:37:55      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:37:56        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:37:55      UID       PID   cswch/s nvcswch/s  Command
+11:37:56        0       497      0.00      0.00  io-load-threade
+
+11:37:56      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:37:57        0       497    0.99  793.07    0.00    0.00  794.06     0  io-load-threade
+
+11:37:56      UID       PID   cswch/s nvcswch/s  Command
+11:37:57        0       497      0.00      0.00  io-load-threade
+
+11:37:57      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:37:58        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:37:57      UID       PID   cswch/s nvcswch/s  Command
+11:37:58        0       497      0.00      0.00  io-load-threade
+
+11:37:58      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:37:59        0       497    0.00  798.00    0.00    0.00  798.00     0  io-load-threade
+
+11:37:58      UID       PID   cswch/s nvcswch/s  Command
+11:37:59        0       497      0.00      0.00  io-load-threade
+
+11:37:59      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:00        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:37:59      UID       PID   cswch/s nvcswch/s  Command
+11:38:00        0       497      0.00      0.00  io-load-threade
+
+11:38:00      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:01        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:38:00      UID       PID   cswch/s nvcswch/s  Command
+11:38:01        0       497      0.00      0.00  io-load-threade
+
+11:38:01      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:02        0       497    1.00  800.00    0.00    0.00  801.00     0  io-load-threade
+
+11:38:01      UID       PID   cswch/s nvcswch/s  Command
+11:38:02        0       497      0.00      0.00  io-load-threade
+
+11:38:02      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:03        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:38:02      UID       PID   cswch/s nvcswch/s  Command
+11:38:03        0       497      0.00      0.00  io-load-threade
+
+11:38:03      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:04        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:38:03      UID       PID   cswch/s nvcswch/s  Command
+11:38:04        0       497      0.00      0.00  io-load-threade
+
+11:38:04      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:05        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:38:04      UID       PID   cswch/s nvcswch/s  Command
+11:38:05        0       497      0.00      0.00  io-load-threade
+
+11:38:05      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:06        0       497    0.00  791.09    0.00    0.00  791.09     0  io-load-threade
+
+11:38:05      UID       PID   cswch/s nvcswch/s  Command
+11:38:06        0       497      0.00      0.00  io-load-threade
+
+11:38:06      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:07        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:38:06      UID       PID   cswch/s nvcswch/s  Command
+11:38:07        0       497      0.00      0.00  io-load-threade
+
+11:38:07      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:08        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:38:07      UID       PID   cswch/s nvcswch/s  Command
+11:38:08        0       497      0.00      0.00  io-load-threade
+
+11:38:08      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:09        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:38:08      UID       PID   cswch/s nvcswch/s  Command
+11:38:09        0       497      0.00      0.00  io-load-threade
+
+11:38:09      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:10        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:38:09      UID       PID   cswch/s nvcswch/s  Command
+11:38:10        0       497      0.00      0.00  io-load-threade
+
+11:38:10      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:11        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:38:10      UID       PID   cswch/s nvcswch/s  Command
+11:38:11        0       497      0.00      0.00  io-load-threade
+
+11:38:11      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:12        0       497    1.00  800.00    0.00    0.00  801.00     0  io-load-threade
+
+11:38:11      UID       PID   cswch/s nvcswch/s  Command
+11:38:12        0       497      0.00      0.00  io-load-threade
+
+11:38:12      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:13        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:38:12      UID       PID   cswch/s nvcswch/s  Command
+11:38:13        0       497      0.00      0.00  io-load-threade
+
+11:38:13      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:14        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:38:13      UID       PID   cswch/s nvcswch/s  Command
+11:38:14        0       497      0.00      0.00  io-load-threade
+
+11:38:14      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:15        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:38:14      UID       PID   cswch/s nvcswch/s  Command
+11:38:15        0       497      0.00      0.00  io-load-threade
+
+11:38:15      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:16        0       497    0.99  791.09    0.00    0.00  792.08     0  io-load-threade
+
+11:38:15      UID       PID   cswch/s nvcswch/s  Command
+11:38:16        0       497      0.00      0.00  io-load-threade
+
+11:38:16      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:17        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:38:16      UID       PID   cswch/s nvcswch/s  Command
+11:38:17        0       497      0.00      0.00  io-load-threade
+
+11:38:17      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:18        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:38:17      UID       PID   cswch/s nvcswch/s  Command
+11:38:18        0       497      0.00      0.00  io-load-threade
+
+11:38:18      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:19        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:38:18      UID       PID   cswch/s nvcswch/s  Command
+11:38:19        0       497      0.00      0.00  io-load-threade
+
+11:38:19      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:20        0       497    1.00  799.00    0.00    0.00  800.00     0  io-load-threade
+
+11:38:19      UID       PID   cswch/s nvcswch/s  Command
+11:38:20        0       497      0.00      0.00  io-load-threade
+
+11:38:20      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:21        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:38:20      UID       PID   cswch/s nvcswch/s  Command
+11:38:21        0       497      0.00      0.00  io-load-threade
+
+11:38:21      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:22        0       497    0.00  794.00    0.00    0.00  794.00     0  io-load-threade
+
+11:38:21      UID       PID   cswch/s nvcswch/s  Command
+11:38:22        0       497      0.00      0.00  io-load-threade
+
+11:38:22      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:23        0       497    0.00  798.00    0.00    0.00  798.00     0  io-load-threade
+
+11:38:22      UID       PID   cswch/s nvcswch/s  Command
+11:38:23        0       497      0.00      0.00  io-load-threade
+
+11:38:23      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:24        0       497    1.00  800.00    0.00    0.00  801.00     0  io-load-threade
+
+11:38:23      UID       PID   cswch/s nvcswch/s  Command
+11:38:24        0       497      0.00      0.00  io-load-threade
+
+11:38:24      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:25        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:38:24      UID       PID   cswch/s nvcswch/s  Command
+11:38:25        0       497      0.00      0.00  io-load-threade
+
+11:38:25      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:26        0       497    0.00  791.09    0.00    0.00  791.09     0  io-load-threade
+
+11:38:25      UID       PID   cswch/s nvcswch/s  Command
+11:38:26        0       497      0.00      0.00  io-load-threade
+
+11:38:26      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:27        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:38:26      UID       PID   cswch/s nvcswch/s  Command
+11:38:27        0       497      0.00      0.00  io-load-threade
+
+11:38:27      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:28        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:38:27      UID       PID   cswch/s nvcswch/s  Command
+11:38:28        0       497      0.00      0.00  io-load-threade
+
+11:38:28      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:29        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:38:28      UID       PID   cswch/s nvcswch/s  Command
+11:38:29        0       497      0.00      0.00  io-load-threade
+
+11:38:29      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:30        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:38:29      UID       PID   cswch/s nvcswch/s  Command
+11:38:30        0       497      0.00      0.00  io-load-threade
+
+11:38:30      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:31        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:38:30      UID       PID   cswch/s nvcswch/s  Command
+11:38:31        0       497      0.00      0.00  io-load-threade
+
+11:38:31      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:32        0       497    1.00  800.00    0.00    0.00  801.00     0  io-load-threade
+
+11:38:31      UID       PID   cswch/s nvcswch/s  Command
+11:38:32        0       497      0.00      0.00  io-load-threade
+
+11:38:32      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:33        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:38:32      UID       PID   cswch/s nvcswch/s  Command
+11:38:33        0       497      0.00      0.00  io-load-threade
+
+11:38:33      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:34        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:38:33      UID       PID   cswch/s nvcswch/s  Command
+11:38:34        0       497      0.00      0.00  io-load-threade
+
+11:38:34      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:35        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:38:34      UID       PID   cswch/s nvcswch/s  Command
+11:38:35        0       497      0.00      0.00  io-load-threade
+
+11:38:35      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:36        0       497    0.00  792.08    0.00    0.00  792.08     0  io-load-threade
+
+11:38:35      UID       PID   cswch/s nvcswch/s  Command
+11:38:36        0       497      0.00      0.00  io-load-threade
+
+11:38:36      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:37        0       497    0.00  758.00    0.00    0.00  758.00     0  io-load-threade
+
+11:38:36      UID       PID   cswch/s nvcswch/s  Command
+11:38:37        0       497      0.00      0.00  io-load-threade
+
+11:38:37      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:38        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:38:37      UID       PID   cswch/s nvcswch/s  Command
+11:38:38        0       497      0.00      0.00  io-load-threade
+
+11:38:38      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:39        0       497    1.00  799.00    0.00    0.00  800.00     0  io-load-threade
+
+11:38:38      UID       PID   cswch/s nvcswch/s  Command
+11:38:39        0       497      0.00      0.00  io-load-threade
+
+11:38:39      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:40        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:38:39      UID       PID   cswch/s nvcswch/s  Command
+11:38:40        0       497      0.00      0.00  io-load-threade
+
+11:38:40      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:41        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:38:40      UID       PID   cswch/s nvcswch/s  Command
+11:38:41        0       497      0.00      0.00  io-load-threade
+
+11:38:41      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:42        0       497    0.00  790.10    0.00    0.00  790.10     0  io-load-threade
+
+11:38:41      UID       PID   cswch/s nvcswch/s  Command
+11:38:42        0       497      0.00      0.00  io-load-threade
+
+11:38:42      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:43        0       497    1.00  799.00    0.00    0.00  800.00     0  io-load-threade
+
+11:38:42      UID       PID   cswch/s nvcswch/s  Command
+11:38:43        0       497      0.00      0.00  io-load-threade
+
+11:38:43      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:44        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:38:43      UID       PID   cswch/s nvcswch/s  Command
+11:38:44        0       497      0.00      0.00  io-load-threade
+
+11:38:44      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:45        0       497    0.00  798.00    0.00    0.00  798.00     0  io-load-threade
+
+11:38:44      UID       PID   cswch/s nvcswch/s  Command
+11:38:45        0       497      0.00      0.00  io-load-threade
+
+11:38:45      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:46        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:38:45      UID       PID   cswch/s nvcswch/s  Command
+11:38:46        0       497      0.00      0.00  io-load-threade
+
+11:38:46      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:47        0       497    1.00  799.00    0.00    0.00  800.00     0  io-load-threade
+
+11:38:46      UID       PID   cswch/s nvcswch/s  Command
+11:38:47        0       497      0.00      0.00  io-load-threade
+
+11:38:47      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:48        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:38:47      UID       PID   cswch/s nvcswch/s  Command
+11:38:48        0       497      0.00      0.00  io-load-threade
+
+11:38:48      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:49        0       497    0.00  797.00    0.00    0.00  797.00     0  io-load-threade
+
+11:38:48      UID       PID   cswch/s nvcswch/s  Command
+11:38:49        0       497      0.00      0.00  io-load-threade
+
+11:38:49      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:50        0       497    1.00  801.00    0.00    0.00  802.00     0  io-load-threade
+
+11:38:49      UID       PID   cswch/s nvcswch/s  Command
+11:38:50        0       497      0.00      0.00  io-load-threade
+
+11:38:50      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:51        0       497    0.00  791.09    0.00    0.00  791.09     0  io-load-threade
+
+11:38:50      UID       PID   cswch/s nvcswch/s  Command
+11:38:51        0       497      0.00      0.00  io-load-threade
+
+11:38:51      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:52        0       497    0.00  776.00    0.00    0.00  776.00     0  io-load-threade
+
+11:38:51      UID       PID   cswch/s nvcswch/s  Command
+11:38:52        0       497      0.00      0.00  io-load-threade
+
+11:38:52      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:53        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:38:52      UID       PID   cswch/s nvcswch/s  Command
+11:38:53        0       497      0.00      0.00  io-load-threade
+
+11:38:53      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:54        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:38:53      UID       PID   cswch/s nvcswch/s  Command
+11:38:54        0       497      0.00      0.00  io-load-threade
+
+11:38:54      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:55        0       497    1.00  801.00    0.00    0.00  802.00     0  io-load-threade
+
+11:38:54      UID       PID   cswch/s nvcswch/s  Command
+11:38:55        0       497      0.00      0.00  io-load-threade
+
+11:38:55      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:56        0       497    0.00  798.00    0.00    0.00  798.00     0  io-load-threade
+
+11:38:55      UID       PID   cswch/s nvcswch/s  Command
+11:38:56        0       497      0.00      0.00  io-load-threade
+
+11:38:56      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:57        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:38:56      UID       PID   cswch/s nvcswch/s  Command
+11:38:57        0       497      0.00      0.00  io-load-threade
+
+11:38:57      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:58        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:38:57      UID       PID   cswch/s nvcswch/s  Command
+11:38:58        0       497      0.00      0.00  io-load-threade
+
+11:38:58      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:38:59        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:38:58      UID       PID   cswch/s nvcswch/s  Command
+11:38:59        0       497      0.00      0.00  io-load-threade
+
+11:38:59      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:00        0       497    0.00  791.09    0.00    0.00  791.09     0  io-load-threade
+
+11:38:59      UID       PID   cswch/s nvcswch/s  Command
+11:39:00        0       497      0.00      0.00  io-load-threade
+
+11:39:00      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:01        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:39:00      UID       PID   cswch/s nvcswch/s  Command
+11:39:01        0       497      0.00      0.00  io-load-threade
+
+11:39:01      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:02        0       497    0.00  802.00    0.00    0.00  802.00     0  io-load-threade
+
+11:39:01      UID       PID   cswch/s nvcswch/s  Command
+11:39:02        0       497      0.00      0.00  io-load-threade
+
+11:39:02      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:03        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:39:02      UID       PID   cswch/s nvcswch/s  Command
+11:39:03        0       497      0.00      0.00  io-load-threade
+
+11:39:03      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:04        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:39:03      UID       PID   cswch/s nvcswch/s  Command
+11:39:04        0       497      0.00      0.00  io-load-threade
+
+11:39:04      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:05        0       497    1.00  799.00    0.00    0.00  800.00     0  io-load-threade
+
+11:39:04      UID       PID   cswch/s nvcswch/s  Command
+11:39:05        0       497      0.00      0.00  io-load-threade
+
+11:39:05      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:06        0       497    0.00  798.00    0.00    0.00  798.00     0  io-load-threade
+
+11:39:05      UID       PID   cswch/s nvcswch/s  Command
+11:39:06        0       497      0.00      0.00  io-load-threade
+
+11:39:06      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:07        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:39:06      UID       PID   cswch/s nvcswch/s  Command
+11:39:07        0       497      0.00      0.00  io-load-threade
+
+11:39:07      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:08        0       497    0.00  791.09    0.00    0.00  791.09     0  io-load-threade
+
+11:39:07      UID       PID   cswch/s nvcswch/s  Command
+11:39:08        0       497      0.00      0.00  io-load-threade
+
+11:39:08      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:09        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:39:08      UID       PID   cswch/s nvcswch/s  Command
+11:39:09        0       497      0.00      0.00  io-load-threade
+
+11:39:09      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:10        0       497    1.00  799.00    0.00    0.00  800.00     0  io-load-threade
+
+11:39:09      UID       PID   cswch/s nvcswch/s  Command
+11:39:10        0       497      0.00      0.00  io-load-threade
+
+11:39:10      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:11        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:39:10      UID       PID   cswch/s nvcswch/s  Command
+11:39:11        0       497      0.00      0.00  io-load-threade
+
+11:39:11      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:12        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:39:11      UID       PID   cswch/s nvcswch/s  Command
+11:39:12        0       497      0.00      0.00  io-load-threade
+
+11:39:12      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:13        0       497    1.00  798.00    0.00    0.00  799.00     0  io-load-threade
+
+11:39:12      UID       PID   cswch/s nvcswch/s  Command
+11:39:13        0       497      0.00      0.00  io-load-threade
+
+11:39:13      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:14        0       497    0.00  798.00    0.00    0.00  798.00     0  io-load-threade
+
+11:39:13      UID       PID   cswch/s nvcswch/s  Command
+11:39:14        0       497      0.00      0.00  io-load-threade
+
+11:39:14      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:15        0       497    0.00  802.00    0.00    0.00  802.00     0  io-load-threade
+
+11:39:14      UID       PID   cswch/s nvcswch/s  Command
+11:39:15        0       497      0.00      0.00  io-load-threade
+
+11:39:15      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:16        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:39:15      UID       PID   cswch/s nvcswch/s  Command
+11:39:16        0       497      0.00      0.00  io-load-threade
+
+11:39:16      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:17        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:39:16      UID       PID   cswch/s nvcswch/s  Command
+11:39:17        0       497      0.00      0.00  io-load-threade
+
+11:39:17      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:18        0       497    1.00  800.00    0.00    0.00  801.00     0  io-load-threade
+
+11:39:17      UID       PID   cswch/s nvcswch/s  Command
+11:39:18        0       497      0.00      0.00  io-load-threade
+
+11:39:18      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:19        0       497    0.00  798.00    0.00    0.00  798.00     0  io-load-threade
+
+11:39:18      UID       PID   cswch/s nvcswch/s  Command
+11:39:19        0       497      0.00      0.00  io-load-threade
+
+11:39:19      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:20        0       497    0.00  792.08    0.00    0.00  792.08     0  io-load-threade
+
+11:39:19      UID       PID   cswch/s nvcswch/s  Command
+11:39:20        0       497      0.00      0.00  io-load-threade
+
+11:39:20      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:21        0       497    0.00  798.00    0.00    0.00  798.00     0  io-load-threade
+
+11:39:20      UID       PID   cswch/s nvcswch/s  Command
+11:39:21        0       497      0.00      0.00  io-load-threade
+
+11:39:21      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:22        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:39:21      UID       PID   cswch/s nvcswch/s  Command
+11:39:22        0       497      0.00      0.00  io-load-threade
+
+11:39:22      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:23        0       497    1.00  799.00    0.00    0.00  800.00     0  io-load-threade
+
+11:39:22      UID       PID   cswch/s nvcswch/s  Command
+11:39:23        0       497      0.00      0.00  io-load-threade
+
+11:39:23      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:24        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:39:23      UID       PID   cswch/s nvcswch/s  Command
+11:39:24        0       497      0.00      0.00  io-load-threade
+
+11:39:24      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:25        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:39:24      UID       PID   cswch/s nvcswch/s  Command
+11:39:25        0       497      0.00      0.00  io-load-threade
+
+11:39:25      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:26        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:39:25      UID       PID   cswch/s nvcswch/s  Command
+11:39:26        0       497      0.00      0.00  io-load-threade
+
+11:39:26      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:27        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:39:26      UID       PID   cswch/s nvcswch/s  Command
+11:39:27        0       497      0.00      0.00  io-load-threade
+
+11:39:27      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:28        0       497    1.00  799.00    0.00    0.00  800.00     0  io-load-threade
+
+11:39:27      UID       PID   cswch/s nvcswch/s  Command
+11:39:28        0       497      0.00      0.00  io-load-threade
+
+11:39:28      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:29        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:39:28      UID       PID   cswch/s nvcswch/s  Command
+11:39:29        0       497      0.00      0.00  io-load-threade
+
+11:39:29      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:30        0       497    0.00  792.08    0.00    0.00  792.08     0  io-load-threade
+
+11:39:29      UID       PID   cswch/s nvcswch/s  Command
+11:39:30        0       497      0.00      0.00  io-load-threade
+
+11:39:30      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:31        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:39:30      UID       PID   cswch/s nvcswch/s  Command
+11:39:31        0       497      0.00      0.00  io-load-threade
+
+11:39:31      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:32        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:39:31      UID       PID   cswch/s nvcswch/s  Command
+11:39:32        0       497      0.00      0.00  io-load-threade
+
+11:39:32      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:33        0       497    1.00  799.00    0.00    0.00  800.00     0  io-load-threade
+
+11:39:32      UID       PID   cswch/s nvcswch/s  Command
+11:39:33        0       497      0.00      0.00  io-load-threade
+
+11:39:33      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:34        0       497    0.00  802.00    0.00    0.00  802.00     0  io-load-threade
+
+11:39:33      UID       PID   cswch/s nvcswch/s  Command
+11:39:34        0       497      0.00      0.00  io-load-threade
+
+11:39:34      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:35        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:39:34      UID       PID   cswch/s nvcswch/s  Command
+11:39:35        0       497      0.00      0.00  io-load-threade
+
+11:39:35      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:36        0       497    0.00  796.00    0.00    0.00  796.00     0  io-load-threade
+
+11:39:35      UID       PID   cswch/s nvcswch/s  Command
+11:39:36        0       497      0.00      0.00  io-load-threade
+
+11:39:36      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:37        0       497    0.00  763.00    0.00    0.00  763.00     0  io-load-threade
+
+11:39:36      UID       PID   cswch/s nvcswch/s  Command
+11:39:37        0       497      0.00      0.00  io-load-threade
+
+11:39:37      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:38        0       497    0.00  782.18    0.00    0.00  782.18     0  io-load-threade
+
+11:39:37      UID       PID   cswch/s nvcswch/s  Command
+11:39:38        0       497      0.00      0.00  io-load-threade
+
+11:39:38      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:39        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:39:38      UID       PID   cswch/s nvcswch/s  Command
+11:39:39        0       497      0.00      0.00  io-load-threade
+
+11:39:39      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:40        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:39:39      UID       PID   cswch/s nvcswch/s  Command
+11:39:40        0       497      0.00      0.00  io-load-threade
+
+11:39:40      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:41        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:39:40      UID       PID   cswch/s nvcswch/s  Command
+11:39:41        0       497      0.00      0.00  io-load-threade
+
+11:39:41      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:42        0       497    1.00  799.00    0.00    0.00  800.00     0  io-load-threade
+
+11:39:41      UID       PID   cswch/s nvcswch/s  Command
+11:39:42        0       497      0.00      0.00  io-load-threade
+
+11:39:42      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:43        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:39:42      UID       PID   cswch/s nvcswch/s  Command
+11:39:43        0       497      0.00      0.00  io-load-threade
+
+11:39:43      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:44        0       497    0.00  798.00    0.00    0.00  798.00     0  io-load-threade
+
+11:39:43      UID       PID   cswch/s nvcswch/s  Command
+11:39:44        0       497      0.00      0.00  io-load-threade
+
+11:39:44      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:45        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:39:44      UID       PID   cswch/s nvcswch/s  Command
+11:39:45        0       497      0.00      0.00  io-load-threade
+
+11:39:45      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:46        0       497    0.00  796.00    0.00    0.00  796.00     0  io-load-threade
+
+11:39:45      UID       PID   cswch/s nvcswch/s  Command
+11:39:46        0       497      0.00      0.00  io-load-threade
+
+11:39:46      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:47        0       497    0.00  796.04    0.00    0.00  796.04     0  io-load-threade
+
+11:39:46      UID       PID   cswch/s nvcswch/s  Command
+11:39:47        0       497      0.00      0.00  io-load-threade
+
+11:39:47      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:48        0       497    0.00  798.00    0.00    0.00  798.00     0  io-load-threade
+
+11:39:47      UID       PID   cswch/s nvcswch/s  Command
+11:39:48        0       497      0.00      0.00  io-load-threade
+
+11:39:48      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:49        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:39:48      UID       PID   cswch/s nvcswch/s  Command
+11:39:49        0       497      0.00      0.00  io-load-threade
+
+11:39:49      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:50        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:39:49      UID       PID   cswch/s nvcswch/s  Command
+11:39:50        0       497      0.00      0.00  io-load-threade
+
+11:39:50      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:51        0       497    1.00  800.00    0.00    0.00  801.00     0  io-load-threade
+
+11:39:50      UID       PID   cswch/s nvcswch/s  Command
+11:39:51        0       497      0.00      0.00  io-load-threade
+
+11:39:51      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:52        0       497    0.00  791.00    0.00    0.00  791.00     0  io-load-threade
+
+11:39:51      UID       PID   cswch/s nvcswch/s  Command
+11:39:52        0       497      0.00      0.00  io-load-threade
+
+11:39:52      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:53        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:39:52      UID       PID   cswch/s nvcswch/s  Command
+11:39:53        0       497      0.00      0.00  io-load-threade
+
+11:39:53      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:54        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:39:53      UID       PID   cswch/s nvcswch/s  Command
+11:39:54        0       497      0.00      0.00  io-load-threade
+
+11:39:54      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:55        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:39:54      UID       PID   cswch/s nvcswch/s  Command
+11:39:55        0       497      0.00      0.00  io-load-threade
+
+11:39:55      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:56        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:39:55      UID       PID   cswch/s nvcswch/s  Command
+11:39:56        0       497      0.00      0.00  io-load-threade
+
+11:39:56      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:57        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:39:56      UID       PID   cswch/s nvcswch/s  Command
+11:39:57        0       497      0.00      0.00  io-load-threade
+
+11:39:57      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:58        0       497    0.99  791.09    0.00    0.00  792.08     0  io-load-threade
+
+11:39:57      UID       PID   cswch/s nvcswch/s  Command
+11:39:58        0       497      0.00      0.00  io-load-threade
+
+11:39:58      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:39:59        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:39:58      UID       PID   cswch/s nvcswch/s  Command
+11:39:59        0       497      0.00      0.00  io-load-threade
+
+11:39:59      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:40:00        0       497    0.00  800.00    0.00    0.00  800.00     0  io-load-threade
+
+11:39:59      UID       PID   cswch/s nvcswch/s  Command
+11:40:00        0       497      0.00      0.00  io-load-threade
+
+11:40:00      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:40:01        0       497    1.00  799.00    0.00    0.00  800.00     0  io-load-threade
+
+11:40:00      UID       PID   cswch/s nvcswch/s  Command
+11:40:01        0       497      0.00      0.00  io-load-threade
+
+11:40:01      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:40:02        0       497    0.00  799.00    0.00    0.00  799.00     0  io-load-threade
+
+11:40:01      UID       PID   cswch/s nvcswch/s  Command
+11:40:02        0       497      0.00      0.00  io-load-threade
+
+11:40:02      UID       PID    %usr %system  %guest   %wait    %CPU   CPU  Command
+11:40:03        0       497    0.00  398.00    0.00    0.00  398.00     0  io-load-threade
+
+11:40:02      UID       PID   cswch/s nvcswch/s  Command
+11:40:03        0       497      0.00      0.00  io-load-threade
