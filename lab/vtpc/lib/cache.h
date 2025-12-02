@@ -4,8 +4,6 @@
 #include <stdint.h>
 
 #define PAGE_SIZE 4096
-#define CACHE_CAPACITY 1000
-#define HASH_TABLE_SIZE 128
 
 typedef struct cache_page_t {
     int fd;                
@@ -21,12 +19,14 @@ typedef struct cache_page_t {
 typedef struct {
     cache_page_t *head;    
     cache_page_t *tail; 
-    cache_page_t *hash_table[HASH_TABLE_SIZE]; 
+    cache_page_t **hash_table;
+    size_t capacity;    
+    size_t hash_size;  
     size_t size;        
     cache_page_t *pages_pool; 
 } cache_t;
 
-int cache_init();
+int cache_init(size_t capacity);
 int cache_destroy();
 cache_page_t* cache_get_page(int fd, off_t page_index);
 void cache_mark_dirty(cache_page_t *page);

@@ -13,9 +13,17 @@
 
 static int cache_is_initialized = 0;
 
+static size_t g_cache_capacity = DEFAULT_CACHE_CAPACITY;
+
+void vtpc_set_capacity(size_t capacity) {
+  if (capacity > 0) {
+    g_cache_capacity = capacity;
+  }
+}
+
 int vtpc_open(const char* path, int mode, int access) {
   if (!cache_is_initialized) {
-    if (cache_init() != 0) {
+    if (cache_init(g_cache_capacity) != 0) {
       perror("cache_init failed");
       return -1;
     }

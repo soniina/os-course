@@ -12,7 +12,7 @@
 static cache_t cache;
 
 static unsigned int get_hash_index(int fd, off_t page_index) {
-  return (unsigned int)((fd + page_index) % HASH_TABLE_SIZE);
+  return (unsigned int)((fd + page_index) % cache.hash_size);
 }
 
 static void lru_unlink(cache_page_t* page) {
@@ -103,30 +103,39 @@ static int flush_page(cache_page_t* page) {
   return 0;
 }
 
-int cache_init() {
+int cache_init(size_t capacity) {
+  cache.capacity = capacity;
+  cache.hash_size = capacity * 2;
   cache.head = NULL;
   cache.tail = NULL;
   cache.size = 0;
-  memset(cache.hash_table, 0, sizeof(cache.hash_table));
 
   cache.pages_pool =
-      (cache_page_t*)calloc(CACHE_CAPACITY, sizeof(cache_page_t));
+      (cache_page_t*)calloc(cache.capacity, sizeof(cache_page_t));
   if (!cache.pages_pool) {
     perror("calloc failed");
     return -1;
   }
 
-  for (int i = 0; i < CACHE_CAPACITY; i++) {
+  cache.hash_table = calloc(cache.hash_size, sizeof(cache_page_t*));
+  if (!cache.hash_table) {
+    perror("calloc failed");
+    free(cache.pages_pool);
+    return -1;
+  }
+
+  for (int i = 0; i < cache.capacity; i++) {
     if (posix_memalign(
             (void**)&cache.pages_pool[i].data, PAGE_SIZE, PAGE_SIZE
         ) != 0) {
-      perror("posiz_memalign failed");
+      perror("posix_memalign failed");
       return -1;
     }
 
     cache.pages_pool[i].is_free = 1;
     cache.pages_pool[i].is_dirty = 0;
   }
+
   return 0;
 }
 
@@ -143,8 +152,8 @@ cache_page_t* cache_get_page(int fd, off_t page_index) {
   }
 
   cache_page_t* page = NULL;
-  if (cache.size < CACHE_CAPACITY) {
-    for (int i = 0; i < CACHE_CAPACITY; i++) {
+  if (cache.size < cache.capacity) {
+    for (int i = 0; i < cache.capacity; i++) {
       if (cache.pages_pool[i].is_free) {
         page = &cache.pages_pool[i];
         cache.size++;
@@ -184,7 +193,7 @@ int cache_destroy() {
     return 0;
   }
 
-  for (int i = 0; i < CACHE_CAPACITY; i++) {
+  for (int i = 0; i < cache.capacity; i++) {
     if (!cache.pages_pool[i].is_free) {
       flush_page(&cache.pages_pool[i]);
     }
@@ -193,6 +202,9 @@ int cache_destroy() {
 
   free(cache.pages_pool);
   cache.pages_pool = NULL;
+
+  free(cache.hash_table);
+  cache.hash_table = NULL;
 
   cache.head = NULL;
   cache.tail = NULL;
@@ -211,7 +223,7 @@ void cache_mark_dirty(cache_page_t* page) {
 
 int cache_sync_file(int fd) {
   int res = 0;
-  for (int i = 0; i < CACHE_CAPACITY; i++) {
+  for (int i = 0; i < cache.capacity; i++) {
     if (!cache.pages_pool[i].is_free && cache.pages_pool[i].fd == fd) {
       if (flush_page(&cache.pages_pool[i]) != 0) {
         res = -1;
